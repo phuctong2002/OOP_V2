@@ -8,5 +8,6 @@ public interface IEvent {
     public String getName(Element element);
     public String getTime(Element element);
     public String getSummary(Element element);
+    public String getResult(Element element);
     public List<String> getRelatedInformation(Element element);
 }

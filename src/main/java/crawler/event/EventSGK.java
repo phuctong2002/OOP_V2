@@ -37,7 +37,7 @@ public class EventSGK extends EventCrawler implements IEvent {
                     time = getTime(td.get(0));
                     name = getName(td.get(1));
                     relatedInformation = getRelatedInformation(td.get(2));
-                    summary = getSummary(td.get(3));
+                    result = getResult(td.get(3));
                     handleNewData(getHistoricEvent());
                 }
             }
@@ -54,11 +54,18 @@ public class EventSGK extends EventCrawler implements IEvent {
 
     @Override
     public String getTime(Element element) {
+        if(element.text().contains("Năm"))
+           return element.text().replace("Năm ","");
         return element.text();
     }
 
     @Override
     public String getSummary(Element element) {
+        return null;
+    }
+
+    @Override
+    public String getResult(Element element) {
         return element.text();
     }
 
@@ -69,29 +76,4 @@ public class EventSGK extends EventCrawler implements IEvent {
         relatedInformation  =  Arrays.stream(str.split(",")).toList();
         return  relatedInformation;
     }
-
-    public JSONObject getHistoricEvent() {
-        JSONObject obj = new JSONObject();
-        obj.put("tên", name);
-        obj.put("thời gian", time);
-        obj.put("thông tin liên quan", relatedInformation);
-        obj.put("tóm tắt", summary);
-        System.out.println(obj);
-        return obj;
-    }
-
-    public void handleNewData(JSONObject newObj){
-        JSONObject oldObj = findObject(newObj.get("thời gian").toString());
-        if(oldObj == null)
-            data.add(newObj);
-        else{
-            Iterator<?> keys = newObj.keySet().iterator();
-            while (keys.hasNext()) {
-                String key = (String) keys.next();
-                if (checkField(key, oldObj) && checkField(key, newObj))
-                    oldObj.put(key, newObj.get(key));
-            }
-        }
-    }
-
 }

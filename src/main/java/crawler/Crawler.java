@@ -6,7 +6,7 @@ import util.JsonHandler;
 
 public abstract class Crawler {
 
-    protected JSONArray data;
+    protected JSONArray data = new JSONArray();
     public JSONObject findObject(String name){
         for( int i = 0; i < data.size(); ++i){
             JSONObject obj = (JSONObject) data.get(i);

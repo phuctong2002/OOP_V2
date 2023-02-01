@@ -19,7 +19,7 @@ public class EventWiki extends EventCrawler implements IEvent {
 
 
     public EventWiki(){
-        setData("Event.json");
+//        setData("Event.json");
         get();
         saveData("Event.json");
     }
@@ -57,15 +57,18 @@ public class EventWiki extends EventCrawler implements IEvent {
 
     @Override
     public String getName(Element element) {
-        return element.text().replace(getTime(element) + " ", "");
+        String name = element.text().replace(getTime(element) + " ", "");
+        if(name.contains(","))
+            return name.split(",")[0];
+        return name;
     }
 
     @Override
     public String getSummary(Element element) {
         StringBuilder summary = new StringBuilder();
         try {
-            Elements a = element.select("a");
-            if (a.size() > 1) return null;
+            Element a = element.select("a").first();
+            if (!a.text().equals(name)) return null;
             String url = a.attr("href");
             Document document = Jsoup.connect("https://vi.wikipedia.org" + url).get();
             Element p = document.select(".mw-parser-output > p").first();
@@ -78,6 +81,11 @@ public class EventWiki extends EventCrawler implements IEvent {
 
         }
         return summary.toString();
+    }
+
+    @Override
+    public String getResult(Element element) {
+        return null;
     }
 
     @Override

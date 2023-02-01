@@ -15,7 +15,7 @@ import java.io.IOException;
 public class DynastyWiki extends Crawler implements IDynasty {
 
     public DynastyWiki(){
-        setData(JsonHandler.readFile("Dynasty.json"));
+        setData("Dynasty.json");
     }
     @Override
     public void get() {

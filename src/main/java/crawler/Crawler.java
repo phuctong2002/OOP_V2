@@ -2,9 +2,11 @@ package crawler;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import util.JsonHandler;
 
 public abstract class Crawler {
-    private JSONArray data;
+
+    protected JSONArray data;
     public JSONObject findObject(String name){
         for( int i = 0; i < data.size(); ++i){
             JSONObject obj = (JSONObject) data.get(i);
@@ -20,8 +22,14 @@ public abstract class Crawler {
     }
     public abstract void get();
 
-    public void setData(JSONArray data) {
-        this.data = data;
+    public void setData(String fileName) {
+        this.data = JsonHandler.readFile(fileName);
+    }
+
+
+
+    public void saveData(String fileName){
+        JsonHandler.writeFile(fileName, data);
     }
 
     public JSONArray getData() {

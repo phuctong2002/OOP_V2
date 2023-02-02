@@ -31,7 +31,6 @@ public class DynastyWiki extends Crawler {
                 for (Element link : links) {
                     try {
                         Document document = Jsoup.connect("https://vi.wikipedia.org" + link.firstChild().attr("href")).get();
-                        JSONObject obj = new JSONObject();
                         String name = link.text();
                         JSONObject tmp = findObject(name);
                         if (tmp == null) {

@@ -71,6 +71,9 @@ public class Dynasty extends Entity{
         if (jsonObj.get("tên") != null)
             setName((String) jsonObj.get("tên"));
         else setName(null);
+
+        setName((String) jsonObj.get("tên"));
+
         if (jsonObj.get("bắt đầu") != null)
             start = (String) jsonObj.get("bắt đầu");
         else start = null;

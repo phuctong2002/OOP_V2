@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 
 
 public abstract class Crawler {
-    private JSONArray data;
+    protected JSONArray data = new JSONArray();
     public JSONObject findObject(String name){
         for( int i = 0; i < data.size(); ++i){
             JSONObject obj = (JSONObject) data.get(i);

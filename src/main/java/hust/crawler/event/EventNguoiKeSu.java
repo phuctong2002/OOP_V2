@@ -2,6 +2,7 @@ package hust.crawler.event;
 
 import hust.crawler.Crawler;
 import hust.model.Event;
+import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -15,9 +16,8 @@ import java.util.List;
 public class EventNguoiKeSu extends Crawler {
 
     public EventNguoiKeSu(){
-        setData("Event.json");
-//        setData(JsonHandler.readFile("Event.json"));
-//        get();
+        setData(JsonHandler.readFile("Event.json"));
+        get();
     }
     @Override
     public void get() {
@@ -44,15 +44,13 @@ public class EventNguoiKeSu extends Crawler {
             }
 
         }
-//        JsonHandler.writeFile("Event.json",data);
-        saveData("Event.json");
+        JsonHandler.writeFile("Event.json",data);
     }
-
 
     private String getTime(Element element) {
         if (element == null) return null;
         element =element.nextElementSibling();
-        String time = element.text();
+        String time = element.text().replace("\u2013", "-");
         if (time.toLowerCase().contains("năm"))
             time = time.toLowerCase();
         else
@@ -64,18 +62,18 @@ public class EventNguoiKeSu extends Crawler {
         return element.text();
     }
 
-    private String getResult(Element element) {
+    public String getResult(Element element) {
         if (element == null) return null;
         element =element.nextElementSibling();
-        return element != null ? element.text() : null;
+        return element.text();
     }
 
-    private String getSummary(Element element) {
+    public String getSummary(Element element) {
         if (element == null) return null;
         return element.text();
     }
 
-    private List<String> getRelatedInformation(Element element) {
+    public List<String> getRelatedInformation(Element element) {
         if (element == null) return null;
         List<String> relatedInformation = new ArrayList<>();
 
@@ -88,16 +86,16 @@ public class EventNguoiKeSu extends Crawler {
 
     @Override
     public JSONObject findObject(String time) {
-        for (Object datum : data) {
-            JSONObject obj = (JSONObject) datum;
-            if (((String) obj.get("thời gian")).equalsIgnoreCase(time)) {
+        for( int i = 0; i < data.size(); ++i){
+            JSONObject obj = (JSONObject) data.get(i);
+            if( ((String) obj.get("thời gian")).toLowerCase().equals(time.toLowerCase())){
                 return obj;
             }
         }
         return null;
     }
 
-    private void handleNewData(String time, Element element){
+    public void handleNewData(String time, Element element){
         JSONObject tmp = findObject(time);
         if( tmp == null){
             // khong ton tai o day nhe
@@ -109,7 +107,7 @@ public class EventNguoiKeSu extends Crawler {
             event.setResult(getResult(element.select("table table table tr >td:contains(Kết quả)").first()));
             event.setRelatedInfo(getRelatedInformation(element.select("p").first()));
             event.loadField(jsonObject);
-            System.out.println(jsonObject);
+//            System.out.println(jsonObject);
             data.add(jsonObject);
         }else{
             Event event = new Event(tmp);
@@ -119,6 +117,7 @@ public class EventNguoiKeSu extends Crawler {
                 event.setSummary(getSummary(element.select("p").first()));
             if (event.getResult() == null)
                 event.setResult(getResult(element.select("table table table tr >td:contains(Kết quả)").first()));
+            System.out.println(tmp);
             event.loadField(tmp);
         }
     }

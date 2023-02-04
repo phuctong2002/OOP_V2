@@ -2,6 +2,8 @@ package hust.crawler.event;
 
 import hust.crawler.Crawler;
 import hust.model.Event;
+import hust.model.King;
+import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,29 +12,30 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class EventWiki extends Crawler {
     public EventWiki(){
-        setData( "Event.json");
-
 //        setData(JsonHandler.readFile("Event.json"));
+        get();
     }
     @Override
     public void get() {
         try {
             Document document = Jsoup.connect("https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam").get();
             Elements elements = document.select(".mw-parser-output > p");
-            System.out.println( elements.size());
+//            System.out.println( elements.size());
             for (int j = 1; j < elements.size(); ++j) {
                 Element element = elements.get(j);
                 String time = getTime(element);
                 String name = getName(element);
-                System.out.println(time + "   :  " + name);
+//                System.out.println(time + "   :  " + name);
                 if (name.equals(time)) {
 
                     Element dl = element.nextElementSibling();
                     Elements dd = dl.select("dd");
+//                    getListHistoricEvent(dd);
                     for(Element e : dd){
                         time = "ngày " + getTime(e) + " năm " + time;
                         getNewData(time,e);
@@ -40,16 +43,17 @@ public class EventWiki extends Crawler {
 
                 } else {
                     Event event = new Event();
+//                    relatedInformation = getRelatedInformation(element);
+//                    summary = getSummary(element);
+//                    handleNewData(getHistoricEvent());
                     getNewData("năm " + time,element);
                 }
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-//        JsonHandler.writeFile("Event.json",data);
-        saveData("Event.json");
+        JsonHandler.writeFile("Event.json",data);
     }
-
 
     private String getTime(Element element) {
         return element.select("b").text().replace("\u2013", "-");
@@ -96,9 +100,9 @@ public class EventWiki extends Crawler {
 
     @Override
     public JSONObject findObject(String time) {
-        for (Object datum : data) {
-            JSONObject obj = (JSONObject) datum;
-            if (((String) obj.get("thời gian")).equalsIgnoreCase(time)) {
+        for( int i = 0; i < data.size(); ++i){
+            JSONObject obj = (JSONObject) data.get(i);
+            if( ((String) obj.get("thời gian")).toLowerCase().equals(time.toLowerCase())){
                 return obj;
             }
         }
@@ -106,7 +110,7 @@ public class EventWiki extends Crawler {
     }
 
     public void getNewData(String time, Element element){
-        JSONObject tmp = null;
+        JSONObject tmp = findObject(time);
         if( tmp == null){
             // khong ton tai o day nhe
             JSONObject jsonObject = new JSONObject();
@@ -126,4 +130,5 @@ public class EventWiki extends Crawler {
             event.loadField(tmp);
         }
     }
+
 }

@@ -1,6 +1,7 @@
 package hust.controller;
 
 import hust.service.Search;
+import hust.util.JsonHandler;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -33,25 +34,27 @@ public class HomeController {
         map.put("Nhân vật lịch sử", "Person.json");
         map.put("Triều đại", "Dynasty.json");
         map.put("Lễ hội", "Cultural.json");
-        map.put("Địa điểm du lịch", "Place.json");
+        map.put("Địa điểm", "Place.json");
         map.put("Sự kiện lịch sử", "Event.json");
         choose.getItems().add("Nhân vật lịch sử");
         choose.getItems().add("Triều đại");
         choose.getItems().add("Lễ hội");
-        choose.getItems().add("Địa điểm du lịch");
+        choose.getItems().add("Địa điểm");
         choose.getItems().add("Sự kiện lịch sử");
         choose.setValue(choose.getItems().get(1));
         service = new Search();
         nameCol.setCellValueFactory(data -> new SimpleStringProperty(data.getValue()));
         textArea.setWrapText( true);
+
+
+        showListData(JsonHandler.readFile(map.get(choose.getSelectionModel().getSelectedItem())));
+        choose.setOnAction(actionEvent -> {
+            showListData(JsonHandler.readFile(map.get(choose.getSelectionModel().getSelectedItem())));
+        });
+
         search.textProperty().addListener((observableValue, s, t1) -> {
             JSONArray arr = service.search(t1.trim(), map.get(choose.getSelectionModel().getSelectedItem()));
-            List<String> list = new ArrayList<>();
-            for (Object o : arr) {
-                list.add((String) ((JSONObject) o).get("tên"));
-            }
-            ObservableList<String> names = FXCollections.observableArrayList(list);
-            tableView.setItems(names);
+            showListData(arr);
         });
         tableView.getSelectionModel().selectedItemProperty().addListener((observableValue, s, t1) -> {
             if (t1 != null) {
@@ -73,4 +76,14 @@ public class HomeController {
             }
         });
     }
+
+    public void showListData(JSONArray arr){
+        List<String> list = new ArrayList<>();
+        for (Object o : arr) {
+            list.add((String) ((JSONObject) o).get("tên"));
+        }
+        ObservableList<String> names = FXCollections.observableArrayList(list);
+        tableView.setItems(names);
+    }
+
 }

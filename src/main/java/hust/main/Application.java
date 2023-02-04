@@ -1,6 +1,9 @@
 package hust.main;
 
 
+import hust.crawler.Crawler;
+import hust.crawler.person.PersonNKS;
+import hust.crawler.person.PersonWiki;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -20,6 +23,10 @@ public class Application extends javafx.application.Application {
     public static void main(String[] args) {
 //        Crawler obj = new EventNguoiKeSu();
 //        obj.get();
+//        Crawler obj = new PersonWiki();
+//        obj.get();
+        Crawler obj = new PersonNKS();
+        obj.get();
         launch();
     }
 }

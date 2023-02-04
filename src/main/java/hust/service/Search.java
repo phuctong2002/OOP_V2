@@ -19,4 +19,7 @@ public class Search {
         }
         return result;
     }
+    public JSONArray search(String fileName){
+        return null;
+    }
 }

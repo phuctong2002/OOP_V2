@@ -4,7 +4,6 @@ import hust.crawler.Crawler;
 import hust.model.Character;
 import hust.model.King;
 import hust.model.Person;
-import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -28,66 +27,70 @@ public class PersonNKS extends Crawler {
                 Elements list1 = doc.select(".blog-item");
                 Elements list2 = doc.select(".com-content-category-blog__pagination ul.pagination>li");
                 for (Element element : list1) {
-//                    JSONObject obj = new JSONObject();
-                    if (element.select("h2>a").text().contains("nhà")) continue;
-                    if (element.select("h2>a").text().contains("Nhà")) continue;
-                    System.out.println(element.select("h2>a").text());
-                    Document detail = Jsoup.connect("https://nguoikesu.com" + element.select("h2>a").attr("href")).get();
-                    Elements infoBoxes = detail.select(".infobox");
-                    if (infoBoxes.size() == 0) continue;
-                    // ton tai infobox nhe
-                    String name = element.select("h2>a").text().trim();
-                    JSONObject person = findObject(name);
-                    // tim trong infobox coi co vua chua gi khong
-                    Elements tmp = detail.select(".infobox>tbody>tr:contains(Tiền nhiệm),"
-                            + ".infobox>tbody>tr:contains(Kế nhiệm)");
-                    Person person1;
-                    if (tmp.size() != 0) {
-                        person1 = new King();
-                    } else person1 = new Character();
-                    if (person == null) {
-                        JSONObject jsonObject = new JSONObject();
-                        if (person1 instanceof King) {
-                            // king
-                            King a = new King();
-                            a.setName(name);
-                            a.setBirth(getBirth(infoBoxes.get(0)));
-                            a.setDeath(getDeath(infoBoxes.get(0)));
-                            a.setDynasty(getDynasty(infoBoxes.get(0)));
-                            a.setTime(getTime(infoBoxes.get(0)));
-                            a.setPredecessor(getPredecessor(infoBoxes.get(0)));
-                            a.setSuccessor(getSuccessor(infoBoxes.get(0)));
-                            a.loadField(jsonObject);
-                            getData().add(jsonObject);
+                    try{
+
+                        if (element.select("h2>a").text().contains("nhà")) continue;
+                        if (element.select("h2>a").text().contains("Nhà")) continue;
+                        System.out.println(element.select("h2>a").text());
+                        Document detail = Jsoup.connect("https://nguoikesu.com" + element.select("h2>a").attr("href")).get();
+                        Elements infoBoxes = detail.select(".infobox");
+                        if (infoBoxes.size() == 0) continue;
+                        // ton tai infobox nhe
+                        String name = element.select("h2>a").text().trim();
+                        JSONObject person = findObject(name);
+                        // tim trong infobox coi co vua chua gi khong
+                        Elements tmp = detail.select(".infobox>tbody>tr:contains(Tiền nhiệm),"
+                                + ".infobox>tbody>tr:contains(Kế nhiệm)");
+                        Person person1;
+                        if (tmp.size() != 0) {
+                            person1 = new King();
+                        } else person1 = new Character();
+                        if (person == null) {
+                            JSONObject jsonObject = new JSONObject();
+                            if (person1 instanceof King) {
+                                // king
+                                King a = new King();
+                                a.setName(name);
+                                a.setBirth(getBirth(infoBoxes.get(0)));
+                                a.setDeath(getDeath(infoBoxes.get(0)));
+                                a.setDynasty(getDynasty(infoBoxes.get(0)));
+                                a.setTime(getTime(infoBoxes.get(0)));
+                                a.setPredecessor(getPredecessor(infoBoxes.get(0)));
+                                a.setSuccessor(getSuccessor(infoBoxes.get(0)));
+                                a.loadField(jsonObject);
+                                getData().add(jsonObject);
+                            } else {
+                                //character
+                                Character a = new Character();
+                                a.setName(name);
+                                a.setBirth(getBirth(infoBoxes.get(0)));
+                                a.setDeath(getDeath(infoBoxes.get(0)));
+                                a.setJob(getJob(infoBoxes.get(0)));
+                                a.loadField(jsonObject);
+                                getData().add(jsonObject);
+                            }
                         } else {
-                            //character
-                            Character a = new Character();
-                            a.setName(name);
-                            a.setBirth(getBirth(infoBoxes.get(0)));
-                            a.setDeath(getDeath(infoBoxes.get(0)));
-                            a.setJob(getJob(infoBoxes.get(0)));
-                            a.loadField(jsonObject);
-                            getData().add(jsonObject);
+                            if (person1 instanceof King) {
+                                // king
+                                King a = new King(person);
+                                if (a.getBirth() == null) a.setBirth(getBirth(infoBoxes.get(0)));
+                                if (a.getDeath() == null) a.setDeath(getDeath(infoBoxes.get(0)));
+                                if (a.getPredecessor() == null) a.setPredecessor(getPredecessor(infoBoxes.get(0)));
+                                if (a.getDynasty() == null) a.setDynasty(getDynasty(infoBoxes.get(0)));
+                                if (a.getSuccessor() == null) a.setSuccessor(getSuccessor(infoBoxes.get(0)));
+                                if (a.getTime() == null) getTime(infoBoxes.get(0));
+                                a.loadField(person);
+                            } else {
+                                //character
+                                Character a = new Character(person);
+                                if (a.getBirth() == null) a.setBirth(getBirth(infoBoxes.get(0)));
+                                if (a.getDeath() == null) a.setDeath(getDeath(infoBoxes.get(0)));
+                                if (a.getJob() == null) a.setJob(getJob(infoBoxes.get(0)));
+                                a.loadField(person);
+                            }
                         }
-                    } else {
-                        if (person1 instanceof King) {
-                            // king
-                            King a = new King(person);
-                            if (a.getBirth() == null) a.setBirth(getBirth(infoBoxes.get(0)));
-                            if (a.getDeath() == null) a.setDeath(getDeath(infoBoxes.get(0)));
-                            if (a.getPredecessor() == null) a.setPredecessor(getPredecessor(infoBoxes.get(0)));
-                            if (a.getDynasty() == null) a.setDynasty(getDynasty(infoBoxes.get(0)));
-                            if (a.getSuccessor() == null) a.setSuccessor(getSuccessor(infoBoxes.get(0)));
-                            if (a.getTime() == null) getTime(infoBoxes.get(0));
-                            a.loadField(person);
-                        } else {
-                            //character
-                            Character a = new Character(person);
-                            if (a.getBirth() == null) a.setBirth(getBirth(infoBoxes.get(0)));
-                            if (a.getDeath() == null) a.setDeath(getDeath(infoBoxes.get(0)));
-                            if (a.getJob() == null) a.setJob(getJob(infoBoxes.get(0)));
-                            a.loadField(person);
-                        }
+                    }catch ( Exception e){
+                        e.printStackTrace();
                     }
                 }
                 Elements links = list2.get(list2.size() - 2).select("a");

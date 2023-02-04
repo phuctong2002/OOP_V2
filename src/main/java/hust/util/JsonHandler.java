@@ -14,7 +14,6 @@ public class JsonHandler {
             f.close();
         }catch ( Exception e){
             System.out.println("Error in writeFile method");
-//            e.printStackTrace();
         }
     }
 

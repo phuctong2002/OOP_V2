@@ -2,7 +2,6 @@ package hust.crawler.dynasty;
 
 import hust.crawler.Crawler;
 import hust.model.Dynasty;
-import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -16,7 +15,8 @@ import java.util.List;
 public class DynastyWiki extends Crawler {
 
     public DynastyWiki() {
-        setData(JsonHandler.readFile("Dynasty.json"));
+        setData("Dynasty.json");
+//        setData(JsonHandler.readFile("Dynasty.json"));
     }
 
     @Override
@@ -31,7 +31,6 @@ public class DynastyWiki extends Crawler {
                 for (Element link : links) {
                     try {
                         Document document = Jsoup.connect("https://vi.wikipedia.org" + link.firstChild().attr("href")).get();
-                        JSONObject obj = new JSONObject();
                         String name = link.text();
                         JSONObject tmp = findObject(name);
                         if (tmp == null) {
@@ -60,7 +59,8 @@ public class DynastyWiki extends Crawler {
         } catch (IOException e) {
             System.out.println("Error getData in DynastyWiki 2");
         }
-        JsonHandler.writeFile("Dynasty.json", getData());
+//        JsonHandler.writeFile("Dynasty.json", getData());
+        saveData( "Dynasty.json");
     }
 
     private String getStart(Element el) {
@@ -108,8 +108,8 @@ public class DynastyWiki extends Crawler {
         Elements infoBox = el.select(".infobox");
         if (infoBox.size() != 0) {
             Elements list = infoBox.get(0).select("tr.mergedrow:not(:has(td[style='padding-left:0em;text-align:left;']))>td:not(:has(sup))>a[title~=[^0-9]]:not(:has(sup))");
-            for (int i = 0; i < list.size(); ++i) {
-                kings.add(list.get(i).text());
+            for (Element element : list) {
+                kings.add(element.text());
             }
             if (kings.size() != 0)
                 return kings;

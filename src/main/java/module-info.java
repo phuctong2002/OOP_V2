@@ -8,4 +8,6 @@ module com.example.oop_v3 {
     exports hust.main;
     opens hust.main to javafx.fxml;
     opens hust.util to json.simple;
+    opens hust.controller to javafx.fxml;
+    exports hust.controller;
 }

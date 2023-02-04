@@ -1,11 +1,12 @@
 package hust.crawler;
 
+import hust.util.JsonHandler;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 
 public abstract class Crawler {
-    private JSONArray data;
+    protected JSONArray data;
     public JSONObject findObject(String name){
         for( int i = 0; i < data.size(); ++i){
             JSONObject obj = (JSONObject) data.get(i);
@@ -15,13 +16,15 @@ public abstract class Crawler {
         }
         return null;
     }
-    public boolean checkField( String field, JSONObject obj){
-        if( obj.get( field) == null) return false;
-        return true;
+    protected void saveData( String fileName){
+        JsonHandler.writeFile( fileName, data);
     }
 
     public void setData(JSONArray data) {
         this.data = data;
+    }
+    public void setData(String fileName){
+        setData(JsonHandler.readFile(fileName));
     }
 
     public JSONArray getData() {

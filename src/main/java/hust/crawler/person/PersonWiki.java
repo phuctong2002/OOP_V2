@@ -2,7 +2,6 @@ package hust.crawler.person;
 
 import hust.crawler.Crawler;
 import hust.model.King;
-import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,7 +10,8 @@ import org.jsoup.select.Elements;
 public class PersonWiki extends Crawler {
 
     public PersonWiki(){
-        setData(JsonHandler.readFile("Person.json"));
+        setData( "Person.json");
+//        setData(JsonHandler.readFile("Person.json"));
     }
     @Override
     public void get() {
@@ -20,7 +20,6 @@ public class PersonWiki extends Crawler {
             Document doc = Jsoup.connect( url).get();
             Elements table1 = doc.select(".mw-parser-output").get(0).select(">table:contains(Chân dung)");
             Elements links = table1.select(">tbody>tr:gt(0)>td:gt(0):lt(2)>b:lt(1)>a:lt(1)");
-//            for( int i = 0; i < 4; ++i){
             for( int i = 0; i < links.size(); ++i){
                 try{
                     Document document = Jsoup.connect("https://vi.wikipedia.org/" + links.get(i).attr("href")).get();
@@ -55,8 +54,10 @@ public class PersonWiki extends Crawler {
         }catch ( Exception e){
             System.out.println( "Error 1");
         }
-        JsonHandler.writeFile("Person.json", getData());
+//        JsonHandler.writeFile("Person.json", getData());
+        saveData("Person.json");
     }
+
 
     private String getSuccessor(Document document) {
         Elements items = document.select(".infobox>tbody>tr:has(>th:contains(Kế nhiệm))>td");

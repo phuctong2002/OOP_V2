@@ -2,7 +2,6 @@ package hust.crawler.place;
 
 import hust.crawler.Crawler;
 import hust.model.Place;
-import hust.util.JsonHandler;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
@@ -11,13 +10,13 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class PlaceNKS extends Crawler {
 
     public PlaceNKS() {
-        setData(JsonHandler.readFile("Place.json"));
+        setData("Place.json");
+//        setData(JsonHandler.readFile("Place.json"));
     }
 
     @Override
@@ -52,8 +51,6 @@ public class PlaceNKS extends Crawler {
                                 place.setName(name);
                                 place.setLocation(getLocation(info.get(0)));
                                 place.setBrief(detail.select("div.com-content-article__body >p").first().text());
-//                                place.setFestival( getFestival(detail) );
-
                                 place.loadField(jsonObject);
                                 getData().add(jsonObject);
                             } else {
@@ -73,8 +70,10 @@ public class PlaceNKS extends Crawler {
             }
             index += 5;
         }
-        JsonHandler.writeFile("Place.json", getData());
+//        JsonHandler.writeFile("Place.json", getData());
+        saveData("Place.json");
     }
+
 
 
     private String getLocation(Element el) {

@@ -2,7 +2,6 @@ package hust.crawler.cultural;
 
 import hust.crawler.Crawler;
 import hust.model.Cultural;
-import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -17,7 +16,8 @@ import java.util.Objects;
 
 public class CulturalWiki extends Crawler {
     public CulturalWiki() {
-        setData(JsonHandler.readFile("Cultural.json"));
+        setData("Cultural.json");
+//        setData(JsonHandler.readFile("Cultural.json"));
     }
     @Override
     public void get() {
@@ -30,7 +30,7 @@ public class CulturalWiki extends Crawler {
                 try {
                     Elements d = elements.get(j).select("td");
                     String name = getName(d.get(2));
-                    JSONObject obj = new JSONObject();
+//                    JSONObject obj = new JSONObject();
                     JSONObject tmp = findObject(name);
                     if (tmp == null) {
                         JSONObject jsonObject = new JSONObject();
@@ -57,8 +57,8 @@ public class CulturalWiki extends Crawler {
         } catch (IOException e) {
             System.out.println("Error getData in DynastyWiki 2");
         }
-
-        JsonHandler.writeFile("Cultural.json", getData());
+        saveData("Cultural.json");
+//        JsonHandler.writeFile("Cultural.json", getData());
     }
     private List<String> getRelatedCharacter(Element element) {
         List<String> relatedCharacter = new ArrayList<>();

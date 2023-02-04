@@ -15,7 +15,8 @@ import java.io.IOException;
 
 public class PersonNKS extends Crawler {
     public PersonNKS() {
-        setData(JsonHandler.readFile("Person.json"));
+//        setData(JsonHandler.readFile("Person.json"));
+        setData( "Person.json");
     }
 
     @Override
@@ -26,16 +27,16 @@ public class PersonNKS extends Crawler {
                 Document doc= Jsoup.connect(url).get();
                 Elements list1 = doc.select(".blog-item");
                 Elements list2 = doc.select(".com-content-category-blog__pagination ul.pagination>li");
-                for (int i = 0; i < list1.size(); i++) {
-                    JSONObject obj = new JSONObject();
-                    if (list1.get(i).select("h2>a").text().contains("nhà")) continue;
-                    if (list1.get(i).select("h2>a").text().contains("Nhà")) continue;
-                    System.out.println(list1.get(i).select("h2>a").text());
-                    Document detail = Jsoup.connect("https://nguoikesu.com" + list1.get(i).select("h2>a").attr("href")).get();
+                for (Element element : list1) {
+//                    JSONObject obj = new JSONObject();
+                    if (element.select("h2>a").text().contains("nhà")) continue;
+                    if (element.select("h2>a").text().contains("Nhà")) continue;
+                    System.out.println(element.select("h2>a").text());
+                    Document detail = Jsoup.connect("https://nguoikesu.com" + element.select("h2>a").attr("href")).get();
                     Elements infoBoxes = detail.select(".infobox");
                     if (infoBoxes.size() == 0) continue;
                     // ton tai infobox nhe
-                    String name = list1.get(i).select("h2>a").text().trim();
+                    String name = element.select("h2>a").text().trim();
                     JSONObject person = findObject(name);
                     // tim trong infobox coi co vua chua gi khong
                     Elements tmp = detail.select(".infobox>tbody>tr:contains(Tiền nhiệm),"
@@ -94,12 +95,14 @@ public class PersonNKS extends Crawler {
                 url = "https://nguoikesu.com" + list2.get(list2.size() - 2).select("a").attr("href");
                 System.out.println(url);
             } catch (IOException e) {
-                continue;
+                e.printStackTrace();
             }
 
         } while (true);
-        JsonHandler.writeFile("Person.json", getData());
+//        JsonHandler.writeFile("Person.json", getData());
+        saveData("Person.json");
     }
+
 
     private String getJob(Element element) {
         Elements items = element.select(".infobox>tbody>tr:has(>th:contains(Nghề nghiệp))>td,"

@@ -50,7 +50,7 @@ public class EventNguoiKeSu extends Crawler {
     private String getTime(Element element) {
         if (element == null) return null;
         element =element.nextElementSibling();
-        String time = element.text();
+        String time = element.text().replace("\u2013", "-");
         if (time.toLowerCase().contains("năm"))
             time = time.toLowerCase();
         else
@@ -107,7 +107,7 @@ public class EventNguoiKeSu extends Crawler {
             event.setResult(getResult(element.select("table table table tr >td:contains(Kết quả)").first()));
             event.setRelatedInfo(getRelatedInformation(element.select("p").first()));
             event.loadField(jsonObject);
-            System.out.println(jsonObject);
+//            System.out.println(jsonObject);
             data.add(jsonObject);
         }else{
             Event event = new Event(tmp);
@@ -117,6 +117,7 @@ public class EventNguoiKeSu extends Crawler {
                 event.setSummary(getSummary(element.select("p").first()));
             if (event.getResult() == null)
                 event.setResult(getResult(element.select("table table table tr >td:contains(Kết quả)").first()));
+            System.out.println(tmp);
             event.loadField(tmp);
         }
     }

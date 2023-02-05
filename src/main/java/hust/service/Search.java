@@ -20,6 +20,8 @@ public class Search {
         return result;
     }
     public JSONArray search(String fileName){
-        return null;
+        JSONArray arr = new JSONArray();
+        arr = JsonHandler.readFile(fileName);
+        return arr;
     }
 }

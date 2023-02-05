@@ -43,7 +43,7 @@ public class PlaceNKS extends Crawler {
                                     continue;
                             }
                             String name = com.get(i).select("[itemprop=url]").get(0).text().trim();
-                            System.out.println("name : " + name);
+                            System.out.println( name);
                             JSONObject obj = findObject(name);
                             if (obj == null) {
                                 Place place = new Place();
@@ -70,7 +70,6 @@ public class PlaceNKS extends Crawler {
             }
             index += 5;
         }
-//        JsonHandler.writeFile("Place.json", getData());
         saveData("Place.json");
     }
 
@@ -85,7 +84,6 @@ public class PlaceNKS extends Crawler {
                     + "table.infobox tbody tr:has(>th:contains(Tọa độ)),"
                     + "table.infobox tbody tr:has(>th:contains(Khu vực)),"
                     + "table.infobox tbody tr:has(>th:contains(Địa điểm))");
-            System.out.println( getDiaChi.get(0).text());
             location = getDiaChi.get(0).select(">td").text();
         } catch (Exception e) {
             location = null;

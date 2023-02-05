@@ -1,19 +1,19 @@
 [
   {
-    "trị vì": "2879 TCN[1] - 2792 TCN",
+    "trị vì": null,
     "sinh": "15 tháng 8 năm 2919 TCN",
     "tên": "Kinh Dương Vương",
     "mất": "Lạc Long Quân",
     "kế nhiệm": "Lạc Long Quân",
     "triều đại": null,
-    "tiền nhiệm": "Đế Minh"
+    "tiền nhiệm": null
   },
   {
-    "trị vì": "2792 TCN - 2525 TCN",
+    "trị vì": null,
     "sinh": "2825 TCN Xích Quỷ",
     "tên": "Lạc Long Quân",
-    "mất": "Hùng Vương thứ I",
-    "kế nhiệm": "Âu Cơ Hùng Lân Vương",
+    "mất": "Âu Cơ Hùng Lân Vương",
+    "kế nhiệm": "Hùng Vương thứ I",
     "triều đại": "Hồng Bàng",
     "tiền nhiệm": "Kinh Dương Vương"
   },
@@ -189,16 +189,16 @@
     "tiền nhiệm": "Sáng lập triều đại"
   },
   {
-    "trị vì": "208 TCN hoặc 205 TCN hoặc 204 - 137 TCN",
+    "trị vì": null,
     "sinh": "257 TCN hoặc 235 TCN huyện Chân Định (真定), quận Hằng Sơn (恒山), nay là tỉnh Hà Bắc, Trung Quốc",
     "tên": "Triệu Vũ Vương",
     "mất": "Triệu Văn Đế",
     "kế nhiệm": "Triệu Văn Đế",
     "triều đại": "Nhà Triệu",
-    "tiền nhiệm": "Sáng lập triều đại"
+    "tiền nhiệm": null
   },
   {
-    "trị vì": "137 TCN \u2013 124 TCN",
+    "trị vì": null,
     "sinh": "175 TCN",
     "tên": "Triệu Văn Vương",
     "mất": "Triệu Minh Đế",
@@ -207,7 +207,7 @@
     "tiền nhiệm": "Triệu Vũ Đế"
   },
   {
-    "trị vì": "125 TCN \u2013 113 TCN",
+    "trị vì": null,
     "sinh": null,
     "tên": "Triệu Minh Vương",
     "mất": "Triệu Ai Vương",
@@ -216,7 +216,7 @@
     "tiền nhiệm": "Triệu Văn Đế"
   },
   {
-    "trị vì": "113 TCN \u2013 112 TCN",
+    "trị vì": null,
     "sinh": "?",
     "tên": "Triệu Ai Vương",
     "mất": "Triệu Dương Vương",
@@ -243,7 +243,7 @@
     "tiền nhiệm": null
   },
   {
-    "trị vì": "544 \u2013 548",
+    "trị vì": null,
     "sinh": "(503-10-17)17 tháng 10, 503 Giao Châu",
     "tên": "Lý Nam Đế",
     "mất": "Triệu Việt Vương",
@@ -252,12 +252,12 @@
     "tiền nhiệm": null
   },
   {
-    "trị vì": "548 \u2013 571",
+    "trị vì": null,
     "sinh": "26 tháng 01 năm 524 Chu Diên, Giao Châu",
     "tên": "Triệu Việt Vương",
     "mất": "Hậu Lý Nam Đế",
     "kế nhiệm": "Hậu Lý Nam Đế",
-    "triều đại": "Nhà Tiền Lý",
+    "triều đại": null,
     "tiền nhiệm": "Lý Nam Đế"
   },
   {
@@ -321,7 +321,7 @@
     "mất": "Phùng An",
     "kế nhiệm": "Phùng An",
     "triều đại": null,
-    "tiền nhiệm": "Không có (Bạch Đầu Đế họ Mai)"
+    "tiền nhiệm": "Không có"
   },
   {
     "trị vì": null,
@@ -392,7 +392,7 @@
     "tên": "Dương Bình Vương",
     "mất": "Hậu Ngô Vương",
     "kế nhiệm": "Hậu Ngô Vương",
-    "triều đại": null,
+    "triều đại": "Nhà Ngô",
     "tiền nhiệm": "Tiền Ngô Vương"
   },
   {
@@ -417,13 +417,13 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Ngô Sứ Quân",
-    "mất": "Thoái nhượng Do thế lực suy yếu nên lui về làm sứ quân.",
-    "kế nhiệm": null,
+    "mất": null,
+    "kế nhiệm": "Thoái nhượng Do thế lực suy yếu nên lui về làm sứ quân.",
     "triều đại": "Nhà Ngô",
     "tiền nhiệm": "Nam Tấn Vương"
   },
   {
-    "trị vì": "968 - 979",
+    "trị vì": null,
     "sinh": "22 tháng 3 năm 924 Gia Viễn, Ninh Bình, Tĩnh Hải quân",
     "tên": "Đinh Tiên Hoàng",
     "mất": "Đinh Phế Đế",
@@ -435,19 +435,19 @@
     "trị vì": null,
     "sinh": "974",
     "tên": "Đinh Phế Đế",
-    "mất": "Triều đại sụp đổ Nhà Tiền Lê",
-    "kế nhiệm": "Triều đại sụp đổ Lê Đại Hành (Nhà Tiền Lê)",
+    "mất": "Triều đại sụp đổ Lê Đại Hành (Nhà Tiền Lê)",
+    "kế nhiệm": "Triều đại sụp đổ Nhà Tiền Lê",
     "triều đại": "Nhà Đinh",
     "tiền nhiệm": "Đinh Tiên Hoàng"
   },
   {
-    "trị vì": "980 \u2013 18 tháng 4 năm 1005",
+    "trị vì": null,
     "sinh": "10 tháng 8, 941 Tĩnh Hải quân",
     "tên": "Lê Đại Hành",
     "mất": "Lê Trung Tông",
     "kế nhiệm": "Lê Trung Tông",
     "triều đại": "Nhà Tiền Lê",
-    "tiền nhiệm": "Sáng lập triều đại Đinh Toàn (nhà Đinh)"
+    "tiền nhiệm": "Nhà Đinh"
   },
   {
     "trị vì": "9 tháng 3 năm 1548 - 24 tháng 1 năm 1556 7 năm, 321 ngày",
@@ -459,25 +459,25 @@
     "tiền nhiệm": "Lê Trang Tông"
   },
   {
-    "trị vì": "1005 \u2013 19 tháng 11 năm 1009",
+    "trị vì": null,
     "sinh": "15 tháng 11, 986 Kinh đô Hoa Lư",
     "tên": "Lê Ngọa Triều",
-    "mất": "Triều đại sụp đổ",
-    "kế nhiệm": "Triều đại sụp đổ Lý Thái Tổ (Nhà Lý)",
+    "mất": "Triều đại sụp đổ Lý Thái Tổ (Nhà Lý)",
+    "kế nhiệm": "Triều đại sụp đổ",
     "triều đại": "Nhà Tiền Lê",
     "tiền nhiệm": "Lê Trung Tông"
   },
   {
-    "trị vì": "21\/11\/1009 - 31\/3\/1028 (19 năm)",
+    "trị vì": null,
     "sinh": "(974-03-08)8 tháng 3, 974 Từ Sơn, Bắc Ninh",
     "tên": "Lý Thái Tổ",
     "mất": "Lý Thái Tông",
     "kế nhiệm": "Lý Thái Tông",
     "triều đại": "Nhà Lý",
-    "tiền nhiệm": "Sáng lập triều đại Lê Ngọa Triều (Nhà Tiền Lê)"
+    "tiền nhiệm": "Sáng lập triều đại"
   },
   {
-    "trị vì": "1 tháng 4 năm 1028 \u2013 3 tháng 11 năm 1054 (26 năm, 216 ngày)",
+    "trị vì": null,
     "sinh": "29 tháng 7, 1000 Hoa Lư, Đại Cồ Việt",
     "tên": "Lý Thái Tông",
     "mất": "Lý Thánh Tông",
@@ -486,7 +486,7 @@
     "tiền nhiệm": "Lý Thái Tổ"
   },
   {
-    "trị vì": "3 tháng 11 năm 1054 \u2013 1 tháng 2 năm 1072 17 năm, 90 ngày",
+    "trị vì": null,
     "sinh": "30 tháng 3 năm 1023",
     "tên": "Lý Thánh Tông",
     "mất": "Lý Nhân Tông",
@@ -495,7 +495,7 @@
     "tiền nhiệm": "Lý Thái Tông"
   },
   {
-    "trị vì": "1 tháng 2 năm 1072 \u2013 15 tháng 1 năm 1128 55 năm, 348 ngày",
+    "trị vì": null,
     "sinh": "22 tháng 2, 1066 Cung Động Tiên, Thăng Long",
     "tên": "Lý Nhân Tông",
     "mất": "Lý Thần Tông",
@@ -504,7 +504,7 @@
     "tiền nhiệm": "Lý Thánh Tông"
   },
   {
-    "trị vì": "15 tháng 1 năm 1128 \u2013 31 tháng 10 năm 1138 10 năm, 289 ngày",
+    "trị vì": null,
     "sinh": "1116 Thăng Long",
     "tên": "Lý Thần Tông",
     "mất": "Lý Anh Tông",
@@ -513,7 +513,7 @@
     "tiền nhiệm": "Lý Nhân Tông"
   },
   {
-    "trị vì": "31 tháng 10 năm 1138 \u2013 14 tháng 8 năm 1175 36 năm, 287 ngày",
+    "trị vì": null,
     "sinh": "tháng 4 năm 1136 Thăng Long",
     "tên": "Lý Anh Tông",
     "mất": "Lý Cao Tông",
@@ -522,7 +522,7 @@
     "tiền nhiệm": "Lý Thần Tông"
   },
   {
-    "trị vì": "14 tháng 8 năm 1175 \u2013 15 tháng 11 năm 1210 35 năm, 93 ngày",
+    "trị vì": null,
     "sinh": "(1173-07-06)6 tháng 7, 1173",
     "tên": "Lý Cao Tông",
     "mất": "Lý Huệ Tông",
@@ -531,7 +531,7 @@
     "tiền nhiệm": "Lý Anh Tông"
   },
   {
-    "trị vì": "15 tháng 11 năm 1210 \u2013 tháng 10 năm 1224",
+    "trị vì": null,
     "sinh": "tháng 7 năm 1194 Thăng Long",
     "tên": "Lý Huệ Tông",
     "mất": "Lý Chiêu Hoàng",
@@ -543,31 +543,31 @@
     "trị vì": null,
     "sinh": "Tháng 9 năm Mậu Dần (1218) Thăng Long (?)",
     "tên": "Lý Chiêu Hoàng",
-    "mất": "Triều đại sụp đổ",
-    "kế nhiệm": "Triều đại nhà Lý sụp đổ Trần Thái Tông (Nhà Trần)",
-    "triều đại": "Nhà Lý (khi sinh) Nhà Trần (hôn nhân)",
+    "mất": "Triều đại nhà Lý sụp đổ Trần Thái Tông (Nhà Trần)",
+    "kế nhiệm": "Triều đại sụp đổ",
+    "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Huệ Tông"
   },
   {
-    "trị vì": "10 tháng 1 năm 1226 \u2013 30 tháng 3 năm 1258 (32 năm, 79 ngày)",
+    "trị vì": null,
     "sinh": "(1218-07-09)9 tháng 7, 1218 Hương Tức Mặc, Đại Việt",
     "tên": "Trần Thái Tông",
     "mất": "Trần Thánh Tông",
     "kế nhiệm": "Trần Thánh Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Trần",
     "tiền nhiệm": "Sáng lập triều đại Lý Chiêu Hoàng (trên thực tế)"
   },
   {
-    "trị vì": "30 tháng 3 năm 1258 - 8 tháng 11 năm 1278 (20 năm, 223 ngày)",
+    "trị vì": null,
     "sinh": "(1240-10-12)12 tháng 10 năm 1240 Thăng Long, Đại Việt",
     "tên": "Trần Thánh Tông",
     "mất": "Trần Nhân Tông",
     "kế nhiệm": "Trần Nhân Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Thái Tông"
   },
   {
-    "trị vì": "8 tháng 11 năm 1278 \u2013 16 tháng 4 năm 1293 (14 năm, 159 ngày)",
+    "trị vì": null,
     "sinh": "(1258-12-07)7 tháng 12 năm 1258 Thăng Long, Đại Việt",
     "tên": "Trần Nhân Tông",
     "mất": "Trần Anh Tông",
@@ -576,16 +576,16 @@
     "tiền nhiệm": "Trần Thánh Tông"
   },
   {
-    "trị vì": "16 tháng 4 năm 1293 \u2013 3 tháng 4 năm 1314 (20 năm, 352 ngày)",
+    "trị vì": null,
     "sinh": "25 tháng 10 năm 1276",
     "tên": "Trần Anh Tông",
     "mất": "Trần Minh Tông",
     "kế nhiệm": "Trần Minh Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Nhân Tông"
   },
   {
-    "trị vì": "3 tháng 4 năm 1314 \u2013 15 tháng 3 năm 1329 (14 năm, 346 ngày)",
+    "trị vì": null,
     "sinh": "(1300-10-04)4 tháng 10, 1300 Thăng Long, Đại Việt",
     "tên": "Trần Minh Tông",
     "mất": "Trần Hiến Tông",
@@ -594,7 +594,7 @@
     "tiền nhiệm": "Trần Anh Tông"
   },
   {
-    "trị vì": "15 tháng 3 năm 1329 - 11 tháng 6 năm 1341 12 năm, 88 ngày",
+    "trị vì": null,
     "sinh": "17 tháng 5, 1319",
     "tên": "Trần Hiến Tông",
     "mất": "Trần Dụ Tông",
@@ -603,11 +603,11 @@
     "tiền nhiệm": "Trần Minh Tông"
   },
   {
-    "trị vì": "11 tháng 6 năm 1341 - 25 tháng 5 năm 1369 27 năm, 348 ngày",
+    "trị vì": null,
     "sinh": "22 tháng 11 năm 1336",
     "tên": "Trần Dụ Tông",
-    "mất": "Hôn Đức công",
-    "kế nhiệm": "Dương Nhật Lễ",
+    "mất": "Dương Nhật Lễ",
+    "kế nhiệm": "Hôn Đức công",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Hiến Tông"
   },
@@ -621,16 +621,16 @@
     "tiền nhiệm": "Trần Dụ Tông"
   },
   {
-    "trị vì": "15 tháng 12 năm 1370 \u2013 4 tháng 12 năm 1372 (1 năm, 355 ngày)",
+    "trị vì": null,
     "sinh": "20 tháng 12 năm 1321",
     "tên": "Trần Nghệ Tông",
     "mất": "Trần Duệ Tông",
     "kế nhiệm": "Trần Duệ Tông",
     "triều đại": "Nhà Trần",
-    "tiền nhiệm": "Trần Nhật Lễ"
+    "tiền nhiệm": "Trần Dụ Tông Hôn Đức Công"
   },
   {
-    "trị vì": "4 tháng 12 năm 1372 - 4 tháng 3 năm 1377 (4 năm, 90 ngày)",
+    "trị vì": null,
     "sinh": "30 tháng 6, 1337",
     "tên": "Trần Duệ Tông",
     "mất": "Trần Phế Đế",
@@ -657,16 +657,16 @@
     "tiền nhiệm": "Trần Phế Đế"
   },
   {
-    "trị vì": "15 tháng 3 năm 1398 \u2013 15 tháng 3 năm 1400 (2 năm, 0 ngày)",
+    "trị vì": null,
     "sinh": "1396",
     "tên": "Trần Thiếu Đế",
-    "mất": "Nhà Hồ cướp ngôi",
-    "kế nhiệm": "Triều đại nhà Trần sụp đổ Hồ Quý Ly (Nhà Hồ)",
+    "mất": "Triều đại nhà Trần sụp đổ Hồ Quý Ly (Nhà Hồ)",
+    "kế nhiệm": "Nhà Hồ cướp ngôi",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Thuận Tông"
   },
   {
-    "trị vì": "22 tháng 3 năm 1400 - 12 tháng 1 năm 1401 296 ngày",
+    "trị vì": null,
     "sinh": "1336 Thanh Hóa, Đại Việt thời Nhà Trần",
     "tên": "Hồ Quý Ly",
     "mất": "Hồ Hán Thương",
@@ -720,7 +720,7 @@
     "tiền nhiệm": "Trùng Quang Đế"
   },
   {
-    "trị vì": "29 tháng 4 năm 1428 \u2013 5 tháng 10 năm 1433 (5 năm, 159 ngày)",
+    "trị vì": null,
     "sinh": "10 tháng 9, 1385 Lam Sơn, Thanh Hóa",
     "tên": "Lê Thái Tổ",
     "mất": "Lê Thái Tông",
@@ -729,21 +729,21 @@
     "tiền nhiệm": "Sáng lập triều đại"
   },
   {
-    "trị vì": "20 tháng 10 năm 1433 - 7 tháng 9 năm 1442 (8 năm, 322 ngày)",
+    "trị vì": null,
     "sinh": "(1423-12-22)22 tháng 12, 1423 Lam Sơn, huyện Thọ Xuân, Thanh Hóa",
     "tên": "Lê Thái Tông",
     "mất": "Lê Nhân Tông",
     "kế nhiệm": "Lê Nhân Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Thái Tổ"
   },
   {
-    "trị vì": "15 tháng 9 năm 1442 \u2013 25 tháng 10 năm 1459 (17 năm, 40 ngày)",
+    "trị vì": null,
     "sinh": "(1441-05-28)28 tháng 5, 1441[1] Đông Kinh, Đại Việt",
     "tên": "Lê Nhân Tông",
     "mất": "Lê Nghi Dân",
     "kế nhiệm": "Lê Nghi Dân",
-    "triều đại": "Hoàng triều Lê",
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Thái Tông"
   },
   {
@@ -756,34 +756,34 @@
     "tiền nhiệm": "Lê Nhân Tông"
   },
   {
-    "trị vì": "26\/6\/1460 -3\/3\/1497 (36 năm, 250 ngày)",
+    "trị vì": null,
     "sinh": "25\/8\/1442 Chùa Huy Văn",
     "tên": "Lê Thánh Tông",
     "mất": "Lê Hiến Tông",
     "kế nhiệm": "Lê Hiến Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Nghi Dân"
   },
   {
-    "trị vì": "9 tháng 3 năm 1497 - 24 tháng 6 năm 1504 (7 năm, 107 ngày)",
+    "trị vì": null,
     "sinh": "(1461-09-06)6 tháng 9, 1461 Đông Kinh, Đại Việt",
     "tên": "Lê Hiến Tông",
     "mất": "Lê Túc Tông",
     "kế nhiệm": "Lê Túc Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Thánh Tông"
   },
   {
-    "trị vì": "17 tháng 7 năm 1504 \u2013 12 tháng 1 năm 1505 (179 ngày)",
+    "trị vì": null,
     "sinh": "(1488-09-06)6 tháng 9, 1488 Đông Kinh, Đại Việt",
     "tên": "Lê Túc Tông",
     "mất": "Lê Uy Mục",
     "kế nhiệm": "Lê Uy Mục",
-    "triều đại": null,
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Hiến Tông"
   },
   {
-    "trị vì": "18 tháng 12 năm 1504 - 1 tháng 12 năm 1509 (4 năm, 348 ngày)",
+    "trị vì": null,
     "sinh": "5 tháng 5, 1488 Đông Kinh",
     "tên": "Lê Uy Mục",
     "mất": "Lê Tương Dực",
@@ -792,21 +792,21 @@
     "tiền nhiệm": "Lê Túc Tông"
   },
   {
-    "trị vì": "4 tháng 12 năm 1509 - 23 tháng 3 năm 1516 6 năm, 110 ngày",
+    "trị vì": null,
     "sinh": "16 tháng 7, 1495",
     "tên": "Lê Tương Dực",
     "mất": "Lê Quang Trị Lê Chiêu Tông",
     "kế nhiệm": "Lê Quang Trị Lê Chiêu Tông",
-    "triều đại": null,
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Uy Mục"
   },
   {
-    "trị vì": "23 tháng 3 năm 1516 - 22 tháng 7 năm 1522 (6 năm, 121 ngày)",
+    "trị vì": null,
     "sinh": "(1506-11-18)18 tháng 11, 1506 Đông Kinh",
     "tên": "Lê Chiêu Tông",
     "mất": "Lê Cung Hoàng",
     "kế nhiệm": "Lê Cung Hoàng",
-    "triều đại": null,
+    "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Tương Dực Lê Quang Trị"
   },
   {
@@ -822,13 +822,13 @@
     "trị vì": null,
     "sinh": "(1507-07-26)26 tháng 7, 1507 Đông Kinh",
     "tên": "Lê Cung Hoàng",
-    "mất": "Lê Trang Tông",
-    "kế nhiệm": "Mạc Đăng Dung cướp ngôi (Nhà Mạc) Lê Trang Tông (Nhà Lê Trung hưng)",
+    "mất": "Mạc Đăng Dung cướp ngôi (Nhà Mạc) Lê Trang Tông (Nhà Lê Trung hưng)",
+    "kế nhiệm": "Lê Trang Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Chiêu Tông"
   },
   {
-    "trị vì": "15 tháng 6 năm 1527 - 1530",
+    "trị vì": null,
     "sinh": "(1483-12-22)22 tháng 12, 1483 (niên hiệu Hồng Đức thời Lê sơ) làng Cổ Trai, huyện Nghi Dương, phủ Kinh Môn, trấn Hải Dương (nay thuộc thôn Cổ Trai, xã Ngũ Đoan, huyện Kiến Thụy, Hải Phòng)",
     "tên": "Mạc Thái Tổ",
     "mất": "Mạc Thái Tông",
@@ -837,7 +837,7 @@
     "tiền nhiệm": "Sáng lập triều đại"
   },
   {
-    "trị vì": "1530 \u2013 25 tháng 1 năm 1540[1]",
+    "trị vì": null,
     "sinh": "1500, Đại Việt",
     "tên": "Mạc Thái Tông",
     "mất": "Mạc Hiến Tông",
@@ -846,7 +846,7 @@
     "tiền nhiệm": "Mạc Thái Tổ"
   },
   {
-    "trị vì": "1540 \u2013 1546",
+    "trị vì": null,
     "sinh": "1517",
     "tên": "Mạc Hiến Tông",
     "mất": "Mạc Tuyên Tông",
@@ -855,7 +855,7 @@
     "tiền nhiệm": "Mạc Thái Tông"
   },
   {
-    "trị vì": "1546 - 1561",
+    "trị vì": null,
     "sinh": "1535 Hoàng thành Thăng Long, Đại Việt",
     "tên": "Mạc Tuyên Tông",
     "mất": "Mạc Mậu Hợp",
@@ -900,75 +900,75 @@
     "tiền nhiệm": "Mạc Kính Chỉ"
   },
   {
-    "trị vì": "1533 - 9 tháng 3, 1548",
+    "trị vì": null,
     "sinh": "1515",
     "tên": "Lê Trang Tông",
     "mất": "Lê Trung Tông",
     "kế nhiệm": "Lê Trung Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Cung Hoàng"
   },
   {
-    "trị vì": "24 tháng 1 năm 1556 \u2013 22 tháng 1 năm 1573 (16 năm, 364 ngày)",
+    "trị vì": null,
     "sinh": "1532",
     "tên": "Lê Anh Tông",
     "mất": "Lê Thế Tông",
     "kế nhiệm": "Lê Thế Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Trung Tông"
   },
   {
-    "trị vì": "22 tháng 1 năm 1573 - 12 tháng 10 năm 1599 26 năm, 263 ngày",
+    "trị vì": null,
     "sinh": "1567",
     "tên": "Lê Thế Tông",
     "mất": "Lê Kính Tông",
     "kế nhiệm": "Lê Kính Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Anh Tông"
   },
   {
-    "trị vì": "12 tháng 10 năm 1599 \u2013 23 tháng 6 năm 1619 19 năm, 254 ngày",
+    "trị vì": null,
     "sinh": "1588",
     "tên": "Lê Kính Tông",
     "mất": "Lê Thần Tông",
     "kế nhiệm": "Lê Thần Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Thế Tông"
   },
   {
-    "trị vì": "23 tháng 6 năm 1619 \u2013 23 tháng 11 năm 1643 24 năm, 153 ngày",
+    "trị vì": null,
     "sinh": "1607 Đông Kinh, Việt Nam",
     "tên": "Lê Thần Tông",
     "mất": "Lê Chân Tông",
     "kế nhiệm": "Lê Chân Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Kính Tông"
   },
   {
-    "trị vì": "23 tháng 11 năm 1643 \u2013 2 tháng 10 năm 1649 5 năm, 313 ngày",
+    "trị vì": null,
     "sinh": "1630 Tử Cấm Thành, Thăng Long.",
     "tên": "Lê Chân Tông",
     "mất": "Lê Thần Tông (lần 2)",
     "kế nhiệm": "Lê Thần Tông (lần 2)",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Thần Tông (lần 1)"
   },
   {
-    "trị vì": "2 tháng 11 năm 1662 - 16 tháng 11 năm 1671 9 năm, 14 ngày",
+    "trị vì": null,
     "sinh": "1654",
     "tên": "Lê Huyền Tông",
     "mất": "Lê Gia Tông",
     "kế nhiệm": "Lê Gia Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Thần Tông"
   },
   {
-    "trị vì": "16 tháng 11 năm 1671 - 27 tháng 4 năm 1675 3 năm, 162 ngày",
+    "trị vì": null,
     "sinh": "1661",
     "tên": "Lê Gia Tông",
     "mất": "Lê Hy Tông",
     "kế nhiệm": "Lê Hy Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Huyền Tông"
   },
   {
@@ -977,35 +977,35 @@
     "tên": "Lê Hy Tông",
     "mất": "Lê Dụ Tông",
     "kế nhiệm": "Lê Dụ Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Gia Tông"
   },
   {
-    "trị vì": "1705 \u2013 20 tháng 4 năm 1729",
+    "trị vì": null,
     "sinh": "1679",
     "tên": "Lê Dụ Tông",
-    "mất": "Lê Đế Duy Phường",
-    "kế nhiệm": "Lê Duy Phường",
-    "triều đại": "Nhà Lê Trung hưng",
+    "mất": "Lê Duy Phường",
+    "kế nhiệm": "Lê Đế Duy Phường",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Hy Tông"
   },
   {
-    "trị vì": "20 tháng 4 năm 1729 \u2013 tháng 8 năm 1732",
+    "trị vì": null,
     "sinh": "1709 Tử Cấm Thành, Thăng Long",
     "tên": "Lê Duy Phường",
     "mất": "Lê Thuần Tông",
     "kế nhiệm": "Lê Thuần Tông",
-    "triều đại": "Nhà Lê Trung hưng",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Dụ Tông"
   },
   {
-    "trị vì": "tháng 8 năm 1732 - 5 tháng 6 năm 1735",
+    "trị vì": null,
     "sinh": "16 tháng 3, 1699 Tử Cấm Thành, Thăng Long",
     "tên": "Lê Thuần Tông",
     "mất": "Lê Ý Tông",
     "kế nhiệm": "Lê Ý Tông",
-    "triều đại": "Nhà Lê Trung hưng",
-    "tiền nhiệm": "Lê Phế Đế"
+    "triều đại": "Nhà Lê trung hưng",
+    "tiền nhiệm": "Lê Đế Duy Phường"
   },
   {
     "trị vì": "5 tháng 6 năm 1735 - tháng 5 năm 1740",
@@ -1026,12 +1026,12 @@
     "tiền nhiệm": "Lê Ý Tông"
   },
   {
-    "trị vì": "10 tháng 8 năm 1786 \u2013 tháng 1 âm lịch năm 1789",
+    "trị vì": null,
     "sinh": "1765 Đông Kinh,Đại Việt",
     "tên": "Lê Chiêu Thống",
-    "mất": "Triều đại sụp đổ Nhà Tây Sơn",
-    "kế nhiệm": "Triều Hậu Lê cáo chung Quang Trung (trên thực tế)",
-    "triều đại": "Nhà Lê Trung hưng",
+    "mất": "Triều Hậu Lê cáo chung Quang Trung (trên thực tế)",
+    "kế nhiệm": "Triều đại sụp đổ Nhà Tây Sơn",
+    "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Hiển Tông"
   },
   {
@@ -1242,43 +1242,43 @@
     "tiền nhiệm": "Thái Đức Đế Lê Chiêu Thống (nhà Hậu Lê)"
   },
   {
-    "trị vì": "16 tháng 9 năm 1792 \u2013 23 tháng 6 năm 1802 (9 năm, 280 ngày)",
+    "trị vì": null,
     "sinh": "1783",
     "tên": "Nguyễn Quang Toản",
-    "mất": "Nhà Tây Sơn sụp đổ",
-    "kế nhiệm": "Triều đại sụp đổ Gia Long (Nhà Nguyễn)",
+    "mất": "Triều đại sụp đổ Gia Long (Nhà Nguyễn)",
+    "kế nhiệm": "Nhà Tây Sơn sụp đổ",
     "triều đại": "Nhà Tây Sơn",
-    "tiền nhiệm": "Tây Sơn Thái Tổ"
+    "tiền nhiệm": "Quang Trung"
   },
   {
     "trị vì": null,
     "sinh": "(1762-02-08)8 tháng 2, 1762 Phú Xuân, Đàng Trong, Đại Việt",
     "tên": "Gia Long",
-    "mất": "Lên ngôi hoàng đế",
-    "kế nhiệm": "Đại Việt đổi tên thành Việt Nam",
-    "triều đại": null,
-    "tiền nhiệm": "Nguyễn Quang Toản của Nhà Tây Sơn"
+    "mất": "Đại Việt đổi tên thành Việt Nam",
+    "kế nhiệm": "Lên ngôi hoàng đế",
+    "triều đại": "Nhà Nguyễn",
+    "tiền nhiệm": "Nguyễn Phúc Dương"
   },
   {
-    "trị vì": "14 tháng 2 năm 1820 \u2013 20 tháng 1 năm 1841 (20 năm, 341 ngày)",
+    "trị vì": null,
     "sinh": "(1791-05-25)25 tháng 5 năm 1791 Gia Định, Đại Việt",
     "tên": "Minh Mạng",
     "mất": "Thiệu Trị",
     "kế nhiệm": "Thiệu Trị",
-    "triều đại": null,
+    "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Gia Long"
   },
   {
-    "trị vì": "11 tháng 2 năm 1841 \u2013 4 tháng 11 năm 1847 (6 năm, 235 ngày)",
+    "trị vì": null,
     "sinh": "16 tháng 6 năm 1807 Huế, Đại Nam",
     "tên": "Thiệu Trị",
     "mất": "Tự Đức",
     "kế nhiệm": "Tự Đức",
-    "triều đại": null,
+    "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Minh Mạng"
   },
   {
-    "trị vì": "5 tháng 11 năm 1847 \u2013 19 tháng 7 năm 1883 (35 năm, 256 ngày)",
+    "trị vì": null,
     "sinh": "22 tháng 9 năm 1829 Huế, Đại Nam",
     "tên": "Tự Đức",
     "mất": "Dục Đức",
@@ -1287,7 +1287,7 @@
     "tiền nhiệm": "Thiệu Trị"
   },
   {
-    "trị vì": "20 tháng 7 năm 1883 - 23 tháng 7 năm 1883 (3 ngày)",
+    "trị vì": null,
     "sinh": "23 tháng 2 năm 1852 Huế, Đại Nam",
     "tên": "Dục Đức",
     "mất": "Hiệp Hòa",
@@ -1305,7 +1305,7 @@
     "tiền nhiệm": "Dục Đức"
   },
   {
-    "trị vì": "2 tháng 12 năm 1883 - 31 tháng 7 năm 1884 (242 ngày)",
+    "trị vì": null,
     "sinh": "12 tháng 2 năm 1869 Huế, Đại Nam",
     "tên": "Kiến Phúc",
     "mất": "Hàm Nghi",
@@ -1314,7 +1314,7 @@
     "tiền nhiệm": "Hiệp Hòa"
   },
   {
-    "trị vì": "2 tháng 8 năm 1884 \u2013 19 tháng 9 năm 1885 (1 năm, 48 ngày)",
+    "trị vì": null,
     "sinh": "3 tháng 8 năm 1871 Huế, Đại Nam",
     "tên": "Hàm Nghi",
     "mất": "Đồng Khánh",
@@ -1323,7 +1323,7 @@
     "tiền nhiệm": "Kiến Phúc"
   },
   {
-    "trị vì": "19 tháng 9 năm 1885 - 28 tháng 1 năm 1889 (3 năm, 131 ngày)",
+    "trị vì": null,
     "sinh": "19 tháng 2 năm 1864 Huế, Đại Nam",
     "tên": "Đồng Khánh",
     "mất": "Thành Thái",
@@ -1341,7 +1341,7 @@
     "tiền nhiệm": "Đồng Khánh"
   },
   {
-    "trị vì": "5 tháng 9 năm 1907 - 6 tháng 5 năm 1916 (8 năm, 244 ngày)",
+    "trị vì": null,
     "sinh": "19 tháng 9 năm 1900 Huế, Đại Nam, Liên bang Đông Dương",
     "tên": "Duy Tân",
     "mất": "Khải Định",
@@ -1350,7 +1350,7 @@
     "tiền nhiệm": "Thành Thái"
   },
   {
-    "trị vì": "18 tháng 5 năm 1916 - 6 tháng 11 năm 1925 (9 năm, 172 ngày)",
+    "trị vì": null,
     "sinh": "8 tháng 10 năm 1885 Huế, Đại Nam",
     "tên": "Khải Định",
     "mất": "Bảo Đại",
@@ -1359,11 +1359,11 @@
     "tiền nhiệm": "Duy Tân"
   },
   {
-    "trị vì": "6 tháng 11 năm 1925 \u2013 30 tháng 8 năm 1945 (19 năm, 297 ngày)",
+    "trị vì": null,
     "sinh": "(1913-10-22)22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương",
     "tên": "Bảo Đại",
-    "mất": "Không có Chế độ phong kiến sụp đổ",
-    "kế nhiệm": "Chế độ quân chủ sụp đổ",
+    "mất": "Chế độ quân chủ sụp đổ",
+    "kế nhiệm": "Không có Chế độ phong kiến sụp đổ",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Khải Định"
   },
@@ -1917,7 +1917,7 @@
     "trị vì": null,
     "sinh": "4 tháng 11 năm 1904 Từ Liêm, Hà Nội, Liên bang Đông Dương",
     "tên": "Hoàng Minh Giám",
-    "mất": "12 tháng 1, 1995 (90 tuổi) Hà Nội, Việt Nam",
+    "mất": "Phạm Văn Đồng",
     "kế nhiệm": "Phạm Văn Đồng",
     "triều đại": null,
     "tiền nhiệm": "Hồ Chí Minh"
@@ -1944,7 +1944,7 @@
     "trị vì": null,
     "sinh": "28 tháng 5, 1905 Bắc Ninh, Liên bang Đông Dương",
     "tên": "Hoàng Quốc Việt",
-    "mất": "25 tháng 12, 1992 (87 tuổi) Hà Nội, Việt Nam",
+    "mất": "Trần Hữu Dực",
     "kế nhiệm": "Trần Hữu Dực",
     "triều đại": null,
     "tiền nhiệm": "Bùi Lâm"
@@ -1980,7 +1980,7 @@
     "trị vì": null,
     "sinh": "05 tháng 8, 1903 Đông Ngạc, Từ Liêm, Hà Nội",
     "tên": "Hoàng Tích Trí",
-    "mất": "21 tháng 11, 1958 (55 tuổi) Hà Nội",
+    "mất": "Phạm Ngọc Thạch",
     "kế nhiệm": "Phạm Ngọc Thạch",
     "triều đại": null,
     "tiền nhiệm": "Trương Đình Tri"
@@ -2019,7 +2019,7 @@
     "trị vì": null,
     "sinh": "1908 La Sơn, Hà Tĩnh, Việt Nam",
     "tên": "Hoàng Xuân Hãn",
-    "mất": "10 tháng 3 năm 1996 Bệnh viện Orsay, Paris, Pháp",
+    "mất": "Vũ Đình Hoè",
     "kế nhiệm": "Vũ Đình Hoè",
     "triều đại": null,
     "tiền nhiệm": null
@@ -2046,7 +2046,7 @@
     "trị vì": null,
     "sinh": "1 tháng 10 năm 1876 Tiên Phước, Quảng Nam, Đại Nam",
     "tên": "Huỳnh Thúc Kháng",
-    "mất": "21 tháng 4, 1947 (70 tuổi) Nghĩa Hành, Quảng Ngãi",
+    "mất": "Phan Kế Toại (Quyền)",
     "kế nhiệm": "Phan Kế Toại (Quyền)",
     "triều đại": null,
     "tiền nhiệm": "Võ Nguyên Giáp"
@@ -2055,7 +2055,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Khúc Hạo",
-    "mất": "cuối năm 917 Thành Đại La, Hà Nội",
+    "mất": "Khúc Hậu Chủ",
     "kế nhiệm": "Khúc Hậu Chủ",
     "triều đại": null,
     "tiền nhiệm": "Khúc Tiên Chủ"
@@ -2064,7 +2064,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Khúc Thừa Dụ",
-    "mất": "23 tháng 7 năm 907 Thành Đại La, Hà Nội",
+    "mất": "Khúc Trung Chủ",
     "kế nhiệm": "Khúc Trung Chủ",
     "triều đại": null,
     "tiền nhiệm": "Bắc thuộc lần 3"
@@ -2073,7 +2073,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Khúc Thừa Hạo",
-    "mất": "cuối năm 917 Thành Đại La, Hà Nội",
+    "mất": "Khúc Hậu Chủ",
     "kế nhiệm": "Khúc Hậu Chủ",
     "triều đại": null,
     "tiền nhiệm": "Khúc Tiên Chủ"
@@ -2094,7 +2094,7 @@
     "trị vì": null,
     "sinh": "9 tháng 5, 14411 Đông Kinh, Đại Việt",
     "tên": "Lê Bang Cơ",
-    "mất": "3 tháng 10, 1459 (18 tuổi) Đông Kinh, Đại Việt",
+    "mất": "Lê Nghi Dân",
     "kế nhiệm": "Lê Nghi Dân",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Thái Tông"
@@ -2109,7 +2109,7 @@
     "trị vì": null,
     "sinh": "7 tháng 4, 1907 Triệu Đông, Triệu Phong, Quảng Trị, Liên bang Đông Dương",
     "tên": "Lê Duẩn",
-    "mất": "10 tháng 7, 1986 (79 tuổi) Hà Nội, Việt Nam",
+    "mất": "Trường Chinh",
     "kế nhiệm": "Trường Chinh",
     "triều đại": null,
     "tiền nhiệm": "Hồ Chí Minh (Quyền)"
@@ -2121,19 +2121,19 @@
     "mất": null
   },
   {
-    "trị vì": "1556 - 1573",
+    "trị vì": null,
     "sinh": "1532",
     "tên": "Lê Duy Bang",
-    "mất": "22 tháng 1, 1573 (40\u201341 tuổi) Đại Việt",
+    "mất": "Lê Thế Tông",
     "kế nhiệm": "Lê Thế Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Trung Tông"
   },
   {
-    "trị vì": "1675 \u2013 1705",
+    "trị vì": null,
     "sinh": "1663",
     "tên": "Lê Duy Cáp",
-    "mất": "1716 (52\u201353 tuổi) Đông Kinh, Đại Việt",
+    "mất": "Lê Dụ Tông",
     "kế nhiệm": "Lê Dụ Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Gia Tông"
@@ -2142,16 +2142,16 @@
     "trị vì": null,
     "sinh": "1661",
     "tên": "Lê Duy Cối",
-    "mất": "1675 (13\u201314 tuổi) Đông Kinh, Đại Việt",
+    "mất": "Lê Hy Tông",
     "kế nhiệm": "Lê Hy Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Huyền Tông"
   },
   {
-    "trị vì": "1729 \u2013 1731",
+    "trị vì": null,
     "sinh": "1679",
     "tên": "Lê Duy Đường",
-    "mất": "1731 (51\u201352 tuổi) Việt Nam",
+    "mất": "Lê Đế Duy Phường",
     "kế nhiệm": "Lê Đế Duy Phường",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Hy Tông"
@@ -2160,7 +2160,7 @@
     "trị vì": null,
     "sinh": "1515",
     "tên": "Lê Duy Ninh",
-    "mất": "29 tháng 1, 1548 (33\u201334 tuổi) Thanh Hóa, Đại Việt",
+    "mất": "Lê Trung Tông",
     "kế nhiệm": "Lê Trung Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Cung Hoàng"
@@ -2169,7 +2169,7 @@
     "trị vì": null,
     "sinh": "1588",
     "tên": "Lê Duy Tân",
-    "mất": "1619 (30\u201331 tuổi) Đông Kinh, Đại Việt",
+    "mất": "Lê Thần Tông",
     "kế nhiệm": "Lê Thần Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Thế Tông"
@@ -2178,7 +2178,7 @@
     "trị vì": null,
     "sinh": "1654",
     "tên": "Lê Duy Vũ",
-    "mất": "1671 (16\u201317 tuổi) Đông Kinh, Đại Việt",
+    "mất": "Lê Gia Tông",
     "kế nhiệm": "Lê Gia Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Thần Tông"
@@ -2190,10 +2190,10 @@
     "mất": "21 tháng 4, 2008 (79 tuổi) Hà Nội, Việt Nam"
   },
   {
-    "trị vì": "1732 \u2013 1735",
+    "trị vì": null,
     "sinh": "1709",
     "tên": "Lê Đế Duy Phường",
-    "mất": "1735 (25\u201326 tuổi)",
+    "mất": "Lê Thuần Tông",
     "kế nhiệm": "Lê Thuần Tông",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Dụ Tông"
@@ -2202,7 +2202,7 @@
     "trị vì": null,
     "sinh": "1 tháng 12, 1920 (96 tuổi) Phú Lộc, Thừa Thiên, Trung Kỳ, Liên bang Đông Dương",
     "tên": "Lê Đức Anh",
-    "mất": null,
+    "mất": "Trần Đức Lương",
     "kế nhiệm": "Trần Đức Lương",
     "triều đại": null,
     "tiền nhiệm": "Võ Chí Công"
@@ -2217,7 +2217,7 @@
     "trị vì": null,
     "sinh": "10 tháng 10 năm 19111 2 3 Nam Trực, Nam Định, Liên bang Đông Dương",
     "tên": "Lê Đức Thọ",
-    "mất": "13 tháng 10, 1990 (79 tuổi)",
+    "mất": "Lê Văn Lương",
     "kế nhiệm": "Lê Văn Lương",
     "triều đại": null,
     "tiền nhiệm": "Lê Văn Lương"
@@ -2226,7 +2226,7 @@
     "trị vì": null,
     "sinh": "10 tháng 8, 941",
     "tên": "Lê Hoàn",
-    "mất": "1005 (63\u201364 tuổi) Hoa Lư, Đại Cồ Việt",
+    "mất": "Lê Trung Tông",
     "kế nhiệm": "Lê Trung Tông",
     "triều đại": "Nhà Tiền Lê",
     "tiền nhiệm": "Nhà Đinh"
@@ -2238,10 +2238,10 @@
     "mất": null
   },
   {
-    "trị vì": "22 tháng 7 năm 1522 \u2013 15 tháng 6 năm 1527 (4 năm, 328 ngày)",
+    "trị vì": null,
     "sinh": "26 tháng 7, 1507 Đông Kinh",
     "tên": "Lê Hoàng Đệ Xuân",
-    "mất": "15 tháng 6, 1527 (19 tuổi) Tây cung, Đông Kinh, Đại Việt",
+    "mất": "Lê Trang Tông",
     "kế nhiệm": "Lê Trang Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Chiêu Tông"
@@ -2250,7 +2250,7 @@
     "trị vì": null,
     "sinh": "6 tháng 9 năm 1902 Nghệ An, Đông Dương thuộc Pháp",
     "tên": "Lê Hồng Phong",
-    "mất": "6 tháng 9, 1942 (40 tuổi) Côn Đảo, Đông Dương thuộc Pháp",
+    "mất": "Hà Huy Tập",
     "kế nhiệm": "Hà Huy Tập",
     "triều đại": null,
     "tiền nhiệm": "Trần Phú"
@@ -2268,7 +2268,7 @@
     "trị vì": null,
     "sinh": "27 tháng 12, 1931 (85 tuổi) Đông Khê, Đông Sơn, Thanh Hóa, Liên bang Đông Dương",
     "tên": "Lê Khả Phiêu",
-    "mất": null,
+    "mất": "Nông Đức Mạnh",
     "kế nhiệm": "Nông Đức Mạnh",
     "triều đại": null,
     "tiền nhiệm": "Đỗ Mười"
@@ -2289,7 +2289,7 @@
     "trị vì": null,
     "sinh": "10 tháng 9, 1383\/851 Lam Sơn, Thanh Hóa",
     "tên": "Lê Lợi",
-    "mất": "5 tháng 10, 1433 (50 tuổi) Đông Kinh, Đại Việt",
+    "mất": "Lê Thái Tông",
     "kế nhiệm": "Lê Thái Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -2313,10 +2313,10 @@
     "mất": "?"
   },
   {
-    "trị vì": "? - 1000",
+    "trị vì": null,
     "sinh": "?",
     "tên": "Lê Long Thâu",
-    "mất": "1000, Hoa Lư, Ninh Bình",
+    "mất": "Lê Long Việt",
     "kế nhiệm": "Lê Long Việt",
     "triều đại": "Nhà Tiền Lê",
     "tiền nhiệm": null
@@ -2340,10 +2340,10 @@
     "mất": "?"
   },
   {
-    "trị vì": "1005 (3 ngày)",
+    "trị vì": null,
     "sinh": "983 Hoa Lư",
     "tên": "Lê Long Việt",
-    "mất": "1005 (21\u201322 tuổi) Đại Cồ Việt",
+    "mất": "Lê Long Đĩnh",
     "kế nhiệm": "Lê Long Đĩnh",
     "triều đại": "Nhà Tiền Lê",
     "tiền nhiệm": "Lê Đại Hành"
@@ -2364,7 +2364,7 @@
     "trị vì": null,
     "sinh": "1765 Đông Kinh, Đại Việt",
     "tên": "Lê Mẫn Đế",
-    "mất": "1793 (27\u201328 tuổi) Yên Kinh, Đại Thanh",
+    "mất": "Triều đại sụp đổ Nhà Tây Sơn",
     "kế nhiệm": "Triều đại sụp đổ Nhà Tây Sơn",
     "triều đại": "Nhà Lê trung hưng",
     "tiền nhiệm": "Lê Hiển Tông"
@@ -2385,7 +2385,7 @@
     "trị vì": null,
     "sinh": "tháng 6, 14391",
     "tên": "Lê Nghi Dân",
-    "mất": "6 tháng 6, 1460 (20\u201321 tuổi)2 Đông Kinh, Đại Việt",
+    "mất": "Lê Thánh Tông",
     "kế nhiệm": "Lê Thánh Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Nhân Tông"
@@ -2406,7 +2406,7 @@
     "trị vì": null,
     "sinh": "20 tháng 11, 1423 Lam Sơn, huyện Thọ Xuân, Thanh Hóa",
     "tên": "Lê Nguyên Long",
-    "mất": "4 tháng 8, 1442 (18 tuổi) Lệ Chi viên, huyện Gia Định 2",
+    "mất": "Lê Nhân Tông",
     "kế nhiệm": "Lê Nhân Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Thái Tổ"
@@ -2421,7 +2421,7 @@
     "trị vì": null,
     "sinh": "25 tháng 6, 1495",
     "tên": "Lê Oanh",
-    "mất": "7 tháng 4, 1516 (20 tuổi) hồ Chu Tước, phường Bích Câu, Đông Kinh",
+    "mất": "Lê Quang Trị Lê Chiêu Tông",
     "kế nhiệm": "Lê Quang Trị Lê Chiêu Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Uy Mục"
@@ -2430,7 +2430,7 @@
     "trị vì": null,
     "sinh": "8 tháng 8, 1921 Bắc Ninh, Đông Dương thuộc Pháp",
     "tên": "Lê Quang Đạo",
-    "mất": "24 tháng 7, 1999 (77 tuổi) Hà Nội, Việt Nam",
+    "mất": "Nông Đức Mạnh",
     "kế nhiệm": "Nông Đức Mạnh",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Hữu Thọ"
@@ -2451,7 +2451,7 @@
     "trị vì": null,
     "sinh": "1336 Thanh Hóa, Việt Nam",
     "tên": "Lê Quý Ly",
-    "mất": "1407 Bắc Kinh, Trung Quốc",
+    "mất": "Hồ Hán Thương",
     "kế nhiệm": "Hồ Hán Thương",
     "triều đại": "Nhà Hồ",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -2505,7 +2505,7 @@
     "trị vì": null,
     "sinh": "25 tháng 8, 1442 Chùa Huy Văn (nay thuộc quận Đống Đa, Hà Nội)",
     "tên": "Lê Thánh Tôn",
-    "mất": "3 tháng 3, 1497 (54 tuổi) Điện Bảo Quang, Đông Kinh",
+    "mất": "Lê Hiến Tông",
     "kế nhiệm": "Lê Hiến Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Nghi Dân"
@@ -2514,7 +2514,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Lê Thị Phất Ngân",
-    "mất": null,
+    "mất": "Kim Thiên Đại Hành hoàng hậu",
     "kế nhiệm": "Kim Thiên Đại Hành hoàng hậu",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Hoàng hậu đầu tiên"
@@ -2553,7 +2553,7 @@
     "trị vì": null,
     "sinh": "1 tháng 10, 19141 Hoài Đức, Hà Đông, Liên bang Đông Dương",
     "tên": "Lê Trọng Tấn",
-    "mất": "5 tháng 12, 1986 (72 tuổi) Hà Nội, Việt Nam",
+    "mất": "Lê Đức Anh",
     "kế nhiệm": "Lê Đức Anh",
     "triều đại": null,
     "tiền nhiệm": "Văn Tiến Dũng"
@@ -2580,7 +2580,7 @@
     "trị vì": null,
     "sinh": "25 tháng 8, 1442 Chùa Huy Văn (nay thuộc quận Đống Đa, Hà Nội)",
     "tên": "Lê Tư Thành",
-    "mất": "3 tháng 3, 1497 (54 tuổi) Điện Bảo Quang, Đông Kinh",
+    "mất": "Lê Hiến Tông",
     "kế nhiệm": "Lê Hiến Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Nghi Dân"
@@ -2601,7 +2601,7 @@
     "trị vì": null,
     "sinh": "5 tháng 5, 1488 Đông Kinh",
     "tên": "Lê Uy Mục Đế",
-    "mất": "1 tháng 12, 1509 (21 tuổi) cửa Lệ Cảnh, Đông Kinh",
+    "mất": "Lê Tương Dực",
     "kế nhiệm": "Lê Tương Dực",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Túc Tông"
@@ -2628,7 +2628,7 @@
     "trị vì": null,
     "sinh": "28 tháng 3 năm 1912 Văn Giang, Bắc Ninh, Bắc Kỳ, Liên bang Đông Dương",
     "tên": "Lê Văn Lương",
-    "mất": "25 tháng 4, 1995 (83 tuổi) Hà Nội, Việt Nam",
+    "mất": "Nguyễn Thanh Bình",
     "kế nhiệm": "Nguyễn Thanh Bình",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Lam"
@@ -2640,10 +2640,10 @@
     "mất": "26 tháng 9 năm 2005 (73 tuổi) California, Hoa Kỳ"
   },
   {
-    "trị vì": "1085-1095",
+    "trị vì": null,
     "sinh": "? thôn Bảo Tháp, xã Đông Cứu, huyện Gia Bình,tỉnh Bắc Ninh",
     "tên": "Lê Văn Thịnh",
-    "mất": "? Phú Thọ",
+    "mất": "Mạc Hiển Tích",
     "kế nhiệm": "Mạc Hiển Tích",
     "triều đại": null,
     "tiền nhiệm": "Lý Đạo Thành"
@@ -2655,10 +2655,10 @@
     "mất": "2006"
   },
   {
-    "trị vì": "22 tháng 7 năm 1522 \u2013 15 tháng 6 năm 1527 (4 năm, 328 ngày)",
+    "trị vì": null,
     "sinh": "26 tháng 7, 1507 Đông Kinh",
     "tên": "Lê Xuân",
-    "mất": "15 tháng 6, 1527 (19 tuổi) Tây cung, Đông Kinh, Đại Việt",
+    "mất": "Lê Trang Tông",
     "kế nhiệm": "Lê Trang Tông",
     "triều đại": "Nhà Lê sơ",
     "tiền nhiệm": "Lê Chiêu Tông"
@@ -2685,7 +2685,7 @@
     "trị vì": null,
     "sinh": "20 tháng 10, 1928 (90 tuổi) Thượng Hải, Trung Quốc",
     "tên": "Lý Bằng",
-    "mất": null,
+    "mất": "Chu Dung Cơ",
     "kế nhiệm": "Chu Dung Cơ",
     "triều đại": null,
     "tiền nhiệm": "Triệu Tử Dương"
@@ -2694,7 +2694,7 @@
     "trị vì": null,
     "sinh": "ngày 7 tháng 1 năm 889",
     "tên": "Lý Biện",
-    "mất": "ngày 30 tháng 3 năm 943 Trung Quốc",
+    "mất": "Nam Đường Nguyên Tông",
     "kế nhiệm": "Nam Đường Nguyên Tông",
     "triều đại": "Nam Đường",
     "tiền nhiệm": "sáng lập triều đại"
@@ -2703,7 +2703,7 @@
     "trị vì": null,
     "sinh": "17 tháng 10, 503",
     "tên": "Lý Bôn",
-    "mất": "13 tháng 4, 548 (44 tuổi) Việt Nam",
+    "mất": "Triệu Việt Vương",
     "kế nhiệm": "Triệu Việt Vương",
     "triều đại": "Nhà Tiền Lý",
     "tiền nhiệm": null
@@ -2712,7 +2712,7 @@
     "trị vì": null,
     "sinh": "22 tháng 2, 1066 Du Thiền các, Thăng Long",
     "tên": "Lý Càn Đức",
-    "mất": "15 tháng 1, 1128 (61 tuổi) Điện Vĩnh Quang, Thăng Long",
+    "mất": "Lý Thần Tông",
     "kế nhiệm": "Lý Thần Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Thánh Tông"
@@ -2721,7 +2721,7 @@
     "trị vì": null,
     "sinh": "8 tháng 3, 974 Từ Sơn, Bắc Ninh",
     "tên": "Lý Công Uẩn",
-    "mất": "31 tháng 3, 1028 (54 tuổi) Long An điện, Thăng Long",
+    "mất": "Lý Thái Tông",
     "kế nhiệm": "Lý Thái Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -2730,16 +2730,16 @@
     "trị vì": null,
     "sinh": "1116 Thăng Long",
     "tên": "Lý Dương Hoán",
-    "mất": "31 tháng 10 năm 1138 Điện Vĩnh Quang, Thăng Long",
+    "mất": "Lý Anh Tông",
     "kế nhiệm": "Lý Anh Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Nhân Tông"
   },
   {
-    "trị vì": "27 tháng 2 năm 684 - 19 tháng 10 năm 690 (6 năm, 234 ngày)",
+    "trị vì": null,
     "sinh": "22 tháng 6, 662 Hàm Lương điện, Bồng Lai cung, Trường An",
     "tên": "Lý Đán",
-    "mất": "13 tháng 7, 716 (54 tuổi) Bách Phúc điện, Trường An",
+    "mất": "Võ Tắc Thiên",
     "kế nhiệm": "Võ Tắc Thiên",
     "triều đại": null,
     "tiền nhiệm": "Đường Trung Tông"
@@ -2748,7 +2748,7 @@
     "trị vì": null,
     "sinh": "499?",
     "tên": "Lý Đào Lang Vương",
-    "mất": "555 động Dã Năng",
+    "mất": "Lý Phật Tử",
     "kế nhiệm": "Lý Phật Tử",
     "triều đại": "Nhà Tiền Lý",
     "tiền nhiệm": "Sáng lập nước Dã Năng"
@@ -2787,7 +2787,7 @@
     "trị vì": null,
     "sinh": "6 tháng 7, 1173",
     "tên": "Lý Long Cán",
-    "mất": "15 tháng 11, 1210 (37 tuổi)",
+    "mất": "Lý Huệ Tông",
     "kế nhiệm": "Lý Huệ Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Anh Tông"
@@ -2796,7 +2796,7 @@
     "trị vì": null,
     "sinh": "8 tháng 9, 6853 Trường An, Đại Đường",
     "tên": "Lý Long Cơ",
-    "mất": "3 tháng 5, 762 (76 tuổi) Cam Lộ điện thuộc Thái Cực cung, Trường An, Đại Đường",
+    "mất": "Đường Túc Tông",
     "kế nhiệm": "Đường Túc Tông",
     "triều đại": "Nhà Đường (唐)",
     "tiền nhiệm": "Đường Duệ Tông"
@@ -2823,7 +2823,7 @@
     "trị vì": null,
     "sinh": "30 tháng 3 năm 1023",
     "tên": "Lý Nhật Tôn",
-    "mất": "1 tháng 2, 1072 (48 tuổi)",
+    "mất": "Lý Nhân Tông",
     "kế nhiệm": "Lý Nhân Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Thái Tông"
@@ -2832,7 +2832,7 @@
     "trị vì": null,
     "sinh": "29 tháng 7, 1000 chùa Duyên Ninh, Ninh Bình",
     "tên": "Lý Phật Mã",
-    "mất": "3 tháng 11, 1054 (54 tuổi) Trường Xuân điện, Thăng Long",
+    "mất": "Lý Thánh Tông",
     "kế nhiệm": "Lý Thánh Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Thái Tổ"
@@ -2841,7 +2841,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Lý Phật Tử",
-    "mất": "602",
+    "mất": "Thay đổi tước hiệu",
     "kế nhiệm": "Thay đổi tước hiệu",
     "triều đại": "Nhà Tiền Lý",
     "tiền nhiệm": "Đào Lang Vương"
@@ -2856,7 +2856,7 @@
     "trị vì": null,
     "sinh": "23 tháng 1, 599 Lam Điền, Thiểm Tây",
     "tên": "Lý Thế Dân",
-    "mất": "10 tháng 7, 649 (50 tuổi) Trường An, Trung Quốc",
+    "mất": "Đường Cao Tông",
     "kế nhiệm": "Đường Cao Tông",
     "triều đại": "Nhà Đường",
     "tiền nhiệm": "Đường Cao Tổ"
@@ -2865,7 +2865,7 @@
     "trị vì": null,
     "sinh": "499?",
     "tên": "Lý Thiên Bảo",
-    "mất": "555 động Dã Năng",
+    "mất": "Lý Phật Tử",
     "kế nhiệm": "Lý Phật Tử",
     "triều đại": "Nhà Tiền Lý",
     "tiền nhiệm": "Sáng lập nước Dã Năng"
@@ -2874,7 +2874,7 @@
     "trị vì": null,
     "sinh": "1136 Thăng Long",
     "tên": "Lý Thiên Tộ",
-    "mất": "14 tháng 8, 1175 (38\u201339 tuổi) Thăng Long, Đại Việt",
+    "mất": "Lý Cao Tông",
     "kế nhiệm": "Lý Cao Tông",
     "triều đại": "Nhà Lý",
     "tiền nhiệm": "Lý Thần Tông"
@@ -2883,7 +2883,7 @@
     "trị vì": null,
     "sinh": "300",
     "tên": "Lý Thọ",
-    "mất": "343 Trung Quốc",
+    "mất": "Hán Quy nghĩa hầu",
     "kế nhiệm": "Hán Quy nghĩa hầu",
     "triều đại": "Thành Hán",
     "tiền nhiệm": "Thành Cung Đô U công"
@@ -2892,7 +2892,7 @@
     "trị vì": null,
     "sinh": "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
     "tên": "Lý Thụy",
-    "mất": "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+    "mất": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "kế nhiệm": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -2910,10 +2910,10 @@
     "mất": null
   },
   {
-    "trị vì": "13 tháng 5 năm 923[1][2] - 15 tháng 5 năm 926 3 năm, 2 ngày",
+    "trị vì": null,
     "sinh": "2 tháng 12, 885[1][5] Thái Nguyên",
     "tên": "Lý Tồn Úc",
-    "mất": "15 tháng 5, 926[1][4]",
+    "mất": "Hậu Đường Minh Tông",
     "kế nhiệm": "Hậu Đường Minh Tông",
     "triều đại": null,
     "tiền nhiệm": "Lý Khắc Dụng"
@@ -2931,10 +2931,10 @@
     "mất": "1427"
   },
   {
-    "trị vì": "237 TCN - 208 TCN",
+    "trị vì": null,
     "sinh": "284 TCN Thượng Thái, nước Sở",
     "tên": "Lý Tư",
-    "mất": "208 TCN Hàm Dương, nước Tần",
+    "mất": "Triệu Cao",
     "kế nhiệm": "Triệu Cao",
     "triều đại": null,
     "tiền nhiệm": "Lã Bất Vi"
@@ -2946,19 +2946,19 @@
     "mất": null
   },
   {
-    "trị vì": "3 tháng 6, 9261 \u2013 15 tháng 12 933",
+    "trị vì": null,
     "sinh": "10 tháng 10, 867 Ứng châu4 , Đại Đường3",
     "tên": "Lý Tự Nguyên",
-    "mất": "15 tháng 12, 933 (66 tuổi) Lạc Dương, Hậu Đường5",
+    "mất": "Hậu Đường Mẫn Đế, con",
     "kế nhiệm": "Hậu Đường Mẫn Đế, con",
     "triều đại": null,
     "tiền nhiệm": "Hậu Đường Trang Tông, em nuôi"
   },
   {
-    "trị vì": "1644 \u2013 1645",
+    "trị vì": null,
     "sinh": "22 tháng 9 năm 1606 huyện Mễ Chi, tỉnh Thiểm Tây, Trung Quốc.",
     "tên": "Lý Tự Thành",
-    "mất": "1645",
+    "mất": "Lý Tự Kinh (giai đoạn hậu kỳ của Đại Thuận)",
     "kế nhiệm": "Lý Tự Kinh (giai đoạn hậu kỳ của Đại Thuận)",
     "triều đại": null,
     "tiền nhiệm": "Sáng lập triều đại"
@@ -2967,7 +2967,7 @@
     "trị vì": null,
     "sinh": "8 tháng 4, 566",
     "tên": "Lý Uyên",
-    "mất": "25 tháng 6, 635 (69 tuổi) Trường An, Đại Đường",
+    "mất": "Đường Thái Tông",
     "kế nhiệm": "Đường Thái Tông",
     "triều đại": "Nhà Đường",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -2976,7 +2976,7 @@
     "trị vì": null,
     "sinh": "Việt Nam",
     "tên": "Mạc Chính Trung",
-    "mất": "Nhà Minh",
+    "mất": "Mạc Tuyên Tông",
     "kế nhiệm": "Mạc Tuyên Tông",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Hiến Tông"
@@ -2985,16 +2985,16 @@
     "trị vì": null,
     "sinh": "?",
     "tên": "Mạc Đăng Doanh",
-    "mất": "25 tháng 1, 15401 Nhà Mạc, Đại Việt",
+    "mất": "Mạc Hiến Tông",
     "kế nhiệm": "Mạc Hiến Tông",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Thái Tổ"
   },
   {
-    "trị vì": "1530 - 1541",
+    "trị vì": null,
     "sinh": "23 tháng 11, 1483 (niên hiệu Hồng Đức thời Lê sơ) làng Cổ Trai, huyện Nghi Dương, phủ Kinh Môn, trấn Hải Dương, Đại Việt (nay thuộc thôn Cổ Trai, xã Ngũ Đoan, huyện Kiến Thuỵ, thành phố Hải Phòng)",
     "tên": "Mạc Đăng Dung",
-    "mất": "22 tháng 8, 1541 (57 tuổi) (niên hiệu Quảng Hòa thời Mạc) Dương Kinh, Đại Việt (nay thuộc xã Ngũ Đoan, huyện Kiến Thuỵ, thành phố Hải Phòng)",
+    "mất": "Mạc Thái Tông",
     "kế nhiệm": "Mạc Thái Tông",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -3003,7 +3003,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Mạc Đôn Nhượng",
-    "mất": "1593 Lạng Sơn",
+    "mất": "Mạc Ngọc Liễn",
     "kế nhiệm": "Mạc Ngọc Liễn",
     "triều đại": null,
     "tiền nhiệm": "Mạc Kính Điển"
@@ -3012,7 +3012,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Mạc Kính Chỉ",
-    "mất": "1593",
+    "mất": "Mạc Kính Cung",
     "kế nhiệm": "Mạc Kính Cung",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Thuần Phúc Đế Mạc Vũ An Đế"
@@ -3021,7 +3021,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Mạc Kính Cung",
-    "mất": "1625 Thăng Long, Đại Việt",
+    "mất": "Mạc Kính Khoan",
     "kế nhiệm": "Mạc Kính Khoan",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Vũ An Đế"
@@ -3030,25 +3030,25 @@
     "trị vì": null,
     "sinh": "?",
     "tên": "Mạc Kính Điển",
-    "mất": "Tháng 10, 1580 Đông Kinh",
+    "mất": "Mạc Đôn Nhượng",
     "kế nhiệm": "Mạc Đôn Nhượng",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Thái Tổ"
   },
   {
-    "trị vì": "1623 \u2013 1638",
+    "trị vì": null,
     "sinh": "?",
     "tên": "Mạc Kính Khoan",
-    "mất": "1593 Cao Bình, Đại Việt",
+    "mất": "Mạc Kính Vũ",
     "kế nhiệm": "Mạc Kính Vũ",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Kính Cung"
   },
   {
-    "trị vì": "1638 \u2013 1677",
+    "trị vì": null,
     "sinh": null,
     "tên": "Mạc Kính Vũ",
-    "mất": null,
+    "mất": "Triều đại sụp đổ",
     "kế nhiệm": "Triều đại sụp đổ",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Kính Khoan"
@@ -3057,7 +3057,7 @@
     "trị vì": null,
     "sinh": "1560",
     "tên": "Mạc Mậu Hợp",
-    "mất": "Tháng 12, 1592 Việt Nam",
+    "mất": "Vũ An Đế",
     "kế nhiệm": "Vũ An Đế",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Tuyên Tông"
@@ -3078,7 +3078,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Mạc Phúc Hải",
-    "mất": "1546 Trung Quốc",
+    "mất": "Mạc Tuyên Tông",
     "kế nhiệm": "Mạc Tuyên Tông",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Thái Tông"
@@ -3087,7 +3087,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Mạc Phúc Nguyên",
-    "mất": "Tháng 12, 1561 Việt Nam",
+    "mất": "Mạc Mậu Hợp",
     "kế nhiệm": "Mạc Mậu Hợp",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Hiến Tông"
@@ -3096,7 +3096,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Mạc Toàn",
-    "mất": "1593 Việt Nam",
+    "mất": "Mạc Kính Chỉ",
     "kế nhiệm": "Mạc Kính Chỉ",
     "triều đại": "Nhà Mạc",
     "tiền nhiệm": "Mạc Mậu Hợp"
@@ -3117,7 +3117,7 @@
     "trị vì": null,
     "sinh": "3 tháng 1, 1901 Quảng Bình, Trung Kỳ, Liên bang Đông Dương",
     "tên": "Ngô Đình Diệm",
-    "mất": "2 tháng 11, 1963 (62 tuổi) Sài Gòn, Việt Nam Cộng hòa",
+    "mất": "Nguyễn Văn Thiệu",
     "kế nhiệm": "Nguyễn Văn Thiệu",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -3144,7 +3144,7 @@
     "trị vì": null,
     "sinh": "?",
     "tên": "Ngô Phù Sai",
-    "mất": "473 TCN Trung Quốc",
+    "mất": "Nước Ngô mất",
     "kế nhiệm": "Nước Ngô mất",
     "triều đại": null,
     "tiền nhiệm": "Ngô Hạp Lư"
@@ -3165,7 +3165,7 @@
     "trị vì": null,
     "sinh": "12 tháng 3, 898 Đường Lâm",
     "tên": "Ngô Quyền",
-    "mất": "18 tháng 1, 944 (45 tuổi) Tĩnh Hải quân",
+    "mất": "Dương Bình Vương",
     "kế nhiệm": "Dương Bình Vương",
     "triều đại": "Nhà Ngô",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -3189,10 +3189,10 @@
     "mất": "1954"
   },
   {
-    "trị vì": "1460 - 1496",
+    "trị vì": null,
     "sinh": "1421 Thanh Hóa",
     "tên": "Ngô Thị Ngọc Dao",
-    "mất": "26 tháng 2, 1496 (74\u201375 tuổi)1 Thừa Hoa điện, Đông Kinh2",
+    "mất": "Huy Gia hoàng thái hậu",
     "kế nhiệm": "Huy Gia hoàng thái hậu",
     "triều đại": null,
     "tiền nhiệm": "Tuyên Từ hoàng thái hậu"
@@ -3225,7 +3225,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Ngô Vương Hạp Lư",
-    "mất": "Trung Quốc",
+    "mất": "Ngô Phù Sai",
     "kế nhiệm": "Ngô Phù Sai",
     "triều đại": null,
     "tiền nhiệm": "Ngô Liêu"
@@ -3234,7 +3234,7 @@
     "trị vì": null,
     "sinh": "20 tháng 4, 1954 (66 tuổi) Duy Tiên, Hà Nam, Việt Nam Dân chủ Cộng hòa",
     "tên": "Ngô Xuân Lịch",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Phùng Quang Thanh"
@@ -3243,7 +3243,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Ngô Xương Ngập",
-    "mất": "954",
+    "mất": "Nam Tấn Vương",
     "kế nhiệm": "Nam Tấn Vương",
     "triều đại": "Nhà Ngô",
     "tiền nhiệm": "Dương Bình Vương"
@@ -3252,16 +3252,16 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Ngô Xương Văn",
-    "mất": "965",
+    "mất": "Ngô Xương Xí",
     "kế nhiệm": "Ngô Xương Xí",
     "triều đại": "Nhà Ngô",
     "tiền nhiệm": "Dương Bình Vương"
   },
   {
-    "trị vì": "965",
+    "trị vì": null,
     "sinh": null,
     "tên": "Ngô Xương Xí",
-    "mất": null,
+    "mất": "Thoái nhượng Do thế lực suy yếu nên lui về làm sứ quân.",
     "kế nhiệm": "Thoái nhượng Do thế lực suy yếu nên lui về làm sứ quân.",
     "triều đại": "Nhà Ngô",
     "tiền nhiệm": "Nam Tấn Vương"
@@ -3270,7 +3270,7 @@
     "trị vì": null,
     "sinh": "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
     "tên": "Nguyễn Ái Quốc",
-    "mất": "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+    "mất": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "kế nhiệm": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -3288,10 +3288,10 @@
     "mất": "14 tháng 8, 1943 (42 tuổi) Côn Đảo, Liên bang Đông Dương"
   },
   {
-    "trị vì": "1780 \u2013 1802",
+    "trị vì": null,
     "sinh": "8 tháng 2, 1762 Huế, Đại Việt",
     "tên": "Nguyễn Ánh",
-    "mất": "3 tháng 2, 1820 (57 tuổi) Huế, Việt Nam",
+    "mất": "Lên ngôi hoàng đế",
     "kế nhiệm": "Lên ngôi hoàng đế",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Nguyễn Phúc Dương"
@@ -3300,7 +3300,7 @@
     "trị vì": null,
     "sinh": "9 tháng 9, 1930 Cần Thơ, Việt Nam",
     "tên": "Nguyễn Bá Cẩn",
-    "mất": "20 tháng 5, 2009 (78 tuổi) San Jose, California, Hoa Kỳ",
+    "mất": "Vũ Văn Mẫu",
     "kế nhiệm": "Vũ Văn Mẫu",
     "triều đại": null,
     "tiền nhiệm": "Trần Thiện Khiêm"
@@ -3309,7 +3309,7 @@
     "trị vì": null,
     "sinh": "8 tháng 4, 19531 Hòa Vang, Đà Nẵng, Quốc gia Việt Nam",
     "tên": "Nguyễn Bá Thanh",
-    "mất": "13 tháng 2, 2015 (61 tuổi) Bệnh viện Đà Nẵng, thành phố Đà Nẵng, Việt Nam",
+    "mất": "Phan Đình Trạc",
     "kế nhiệm": "Phan Đình Trạc",
     "triều đại": null,
     "tiền nhiệm": "Trương Vĩnh Trọng"
@@ -3318,7 +3318,7 @@
     "trị vì": null,
     "sinh": "924 Gia Viễn, Ninh Bình",
     "tên": "Nguyễn Bặc",
-    "mất": "15 tháng 10 năm 979 (55 tuổi) Hoa Lư, Đại Cồ Việt",
+    "mất": "Chức bãi bỏ",
     "kế nhiệm": "Chức bãi bỏ",
     "triều đại": null,
     "tiền nhiệm": "Chức mới lập"
@@ -3345,7 +3345,7 @@
     "trị vì": null,
     "sinh": "19 tháng 2 năm 1864 Huế, Đại Nam",
     "tên": "Nguyễn Cảnh Tông",
-    "mất": "28 tháng 1, 1889 (24 tuổi) Huế, Đại Nam, Liên bang Đông Dương",
+    "mất": "Thành Thái",
     "kế nhiệm": "Thành Thái",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Hàm Nghi"
@@ -3372,7 +3372,7 @@
     "trị vì": null,
     "sinh": "15 tháng 5, 1957 (63 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
     "tên": "Nguyễn Chí Vịnh",
-    "mất": null,
+    "mất": "Hoàng Xuân Chiến",
     "kế nhiệm": "Hoàng Xuân Chiến",
     "triều đại": null,
     "tiền nhiệm": "Đặng Vũ Chính"
@@ -3393,7 +3393,7 @@
     "trị vì": null,
     "sinh": "15 tháng 5, 1921 Vụ Bản - Nam Định, Liên bang Đông Dương",
     "tên": "Nguyễn Cơ Thạch",
-    "mất": "10 tháng 4, 1998 (76 tuổi) Hà Nội, Việt Nam",
+    "mất": "Nguyễn Mạnh Cầm",
     "kế nhiệm": "Nguyễn Mạnh Cầm",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Duy Trinh"
@@ -3414,7 +3414,7 @@
     "trị vì": null,
     "sinh": "22 tháng 9 năm 1829 Huế, Việt Nam",
     "tên": "Nguyễn Dực Tông",
-    "mất": "19 tháng 7, 1883 (53 tuổi) Huế, Đại Nam",
+    "mất": "Dục Đức",
     "kế nhiệm": "Dục Đức",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Thiệu Trị"
@@ -3429,7 +3429,7 @@
     "trị vì": null,
     "sinh": "15 tháng 7 năm 1910 Nghi Thọ, Nghi Lộc, Nghệ An, Liên bang Đông Dương",
     "tên": "Nguyễn Duy Trinh",
-    "mất": "20 tháng 4, 1985 (74 tuổi) Hà Nội, Việt Nam",
+    "mất": "Nguyễn Cơ Thạch",
     "kế nhiệm": "Nguyễn Cơ Thạch",
     "triều đại": null,
     "tiền nhiệm": "Xuân Thủy"
@@ -3474,7 +3474,7 @@
     "trị vì": null,
     "sinh": "12 tháng 2 năm 1869 Huế, Đại Nam",
     "tên": "Nguyễn Giản Tông",
-    "mất": "31 tháng 7, 1884 (15 tuổi) Huế, Đại Nam",
+    "mất": "Hàm Nghi",
     "kế nhiệm": "Hàm Nghi",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Hiệp Hòa"
@@ -3489,7 +3489,7 @@
     "trị vì": null,
     "sinh": "16 tháng 6 năm 1807 Huế, Việt Nam",
     "tên": "Nguyễn Hiến Tổ",
-    "mất": "4 tháng 10, 1847 (40 tuổi) Huế, Đại Nam",
+    "mất": "Tự Đức",
     "kế nhiệm": "Tự Đức",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Minh Mạng"
@@ -3498,7 +3498,7 @@
     "trị vì": null,
     "sinh": "28 tháng 8, 1525 Thanh Hóa, Đại Việt",
     "tên": "Nguyễn Hoàng",
-    "mất": "20 tháng 7, 1613 (87 tuổi) Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Nguyên",
     "kế nhiệm": "Nguyễn Phúc Nguyên",
     "triều đại": null,
     "tiền nhiệm": "Sáng lập"
@@ -3507,7 +3507,7 @@
     "trị vì": null,
     "sinh": "1753 Bình Định, Đàng Trong, Đại Việt",
     "tên": "Nguyễn Huệ",
-    "mất": "16 tháng 9, 1792 (38\u201339 tuổi) Phú Xuân, Đại Việt",
+    "mất": "Cảnh Thịnh Hoàng đế",
     "kế nhiệm": "Cảnh Thịnh Hoàng đế",
     "triều đại": "Nhà Tây Sơn",
     "tiền nhiệm": "Thái Đức Hoàng đế"
@@ -3531,10 +3531,10 @@
     "mất": null
   },
   {
-    "trị vì": "20 tháng 3 năm 1934 \u2013 25 tháng 8 năm 1945 (11 năm, 158 ngày)",
+    "trị vì": null,
     "sinh": "14 tháng 12 năm 1914 Gò Công, Liên bang Đông Dương",
     "tên": "Nguyễn Hữu Thị Lan",
-    "mất": "16 tháng 9, 1963 (48 tuổi) Corrèze, Pháp",
+    "mất": "Không có Chế độ phong kiến sụp đổ",
     "kế nhiệm": "Không có Chế độ phong kiến sụp đổ",
     "triều đại": null,
     "tiền nhiệm": "Thừa Thiên Cao Hoàng hậu"
@@ -3543,7 +3543,7 @@
     "trị vì": null,
     "sinh": "10 tháng 7, 1910 Chợ Lớn, Đông Dương thuộc Pháp",
     "tên": "Nguyễn Hữu Thọ",
-    "mất": "24 tháng 12, 1996 (86 tuổi) TP.HCM, Việt Nam",
+    "mất": "Hợp nhất với Việt Nam Dân chủ Cộng hòa",
     "kế nhiệm": "Hợp nhất với Việt Nam Dân chủ Cộng hòa",
     "triều đại": null,
     "tiền nhiệm": "Tôn Đức Thắng"
@@ -3552,7 +3552,7 @@
     "trị vì": null,
     "sinh": "17 tháng 7, 1947 (73 tuổi) Xã Hải Long, huyện Hải Hậu, tỉnh Nam Định, Việt Nam Dân chủ Cộng hòa",
     "tên": "Nguyễn Huy Hiệu",
-    "mất": null,
+    "mất": "Đỗ Trung Dương",
     "kế nhiệm": "Đỗ Trung Dương",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Kiệm"
@@ -3573,7 +3573,7 @@
     "trị vì": null,
     "sinh": "1919 Kiến Xương, Thái Bình",
     "tên": "Nguyễn Khang",
-    "mất": "1976 Hà Nội",
+    "mất": "Trần Hữu Dực",
     "kế nhiệm": "Trần Hữu Dực",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Duy Trinh"
@@ -3618,7 +3618,7 @@
     "trị vì": null,
     "sinh": "2 tháng 4, 1904 Thanh Miện, Hải Dương",
     "tên": "Nguyễn Lương Bằng",
-    "mất": "1979 Hà Nội",
+    "mất": "Nguyễn Thanh Bình",
     "kế nhiệm": "Nguyễn Thanh Bình",
     "triều đại": null,
     "tiền nhiệm": "Tôn Đức Thắng"
@@ -3627,7 +3627,7 @@
     "trị vì": null,
     "sinh": "15 tháng 9, 1929 (89 tuổi) Thành phố Vinh, Nghệ An, Trung Kỳ, Liên bang Đông Dương",
     "tên": "Nguyễn Mạnh Cầm",
-    "mất": null,
+    "mất": "Nguyễn Thị Doan",
     "kế nhiệm": "Nguyễn Thị Doan",
     "triều đại": null,
     "tiền nhiệm": "Vũ Oanh"
@@ -3648,7 +3648,7 @@
     "trị vì": null,
     "sinh": "8 tháng 10, 1942 (75 tuổi) Bến Cát, Thủ Dầu Một, Nam Kỳ, Liên bang Đông Dương",
     "tên": "Nguyễn Minh Triết",
-    "mất": null,
+    "mất": "Trương Tấn Sang",
     "kế nhiệm": "Trương Tấn Sang",
     "triều đại": null,
     "tiền nhiệm": "Trần Đức Lương"
@@ -3660,10 +3660,10 @@
     "mất": "20 tháng 10, 2013 (86 tuổi) Hà Nội, Việt Nam"
   },
   {
-    "trị vì": "1789 - 1793",
+    "trị vì": null,
     "sinh": "1743 Bình Định, Đàng Trong, Đại Việt",
     "tên": "Nguyễn Nhạc",
-    "mất": "1793 Quy Nhơn, Đại Việt",
+    "mất": "Quang Trung",
     "kế nhiệm": "Quang Trung",
     "triều đại": "Nhà Tây Sơn",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -3684,7 +3684,7 @@
     "trị vì": null,
     "sinh": "14 tháng 4, 1944 (74 tuổi) Xã Đông Hội, huyện Đông Anh, Hà Nội, Liên bang Đông Dương",
     "tên": "Nguyễn Phú Trọng",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Nông Đức Mạnh"
@@ -3693,7 +3693,7 @@
     "trị vì": null,
     "sinh": "11 tháng 6, 1675 1",
     "tên": "Nguyễn Phúc Chu",
-    "mất": "1 tháng 6, 1725 (49 tuổi) 1 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Chú",
     "kế nhiệm": "Nguyễn Phúc Chú",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Thái"
@@ -3705,10 +3705,10 @@
     "mất": "24 tháng 10, 1765 (32 tuổi) Phú Xuân, Đàng Trong, Đại Việt"
   },
   {
-    "trị vì": "1776 - 1777",
+    "trị vì": null,
     "sinh": null,
     "tên": "Nguyễn Phúc Dương",
-    "mất": "1777 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Ánh",
     "kế nhiệm": "Nguyễn Phúc Ánh",
     "triều đại": null,
     "tiền nhiệm": null
@@ -3717,16 +3717,16 @@
     "trị vì": null,
     "sinh": "25 tháng 5 năm 1791 Gia Định, Đại Việt",
     "tên": "Nguyễn Phúc Đảm",
-    "mất": "20 tháng 1, 1841 (49 tuổi) Huế, Đại Nam",
+    "mất": "Thiệu Trị",
     "kế nhiệm": "Thiệu Trị",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Gia Long"
   },
   {
-    "trị vì": "1738 - 1765",
+    "trị vì": null,
     "sinh": "1714",
     "tên": "Nguyễn Phúc Khoát",
-    "mất": "1765 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Thuần",
     "kế nhiệm": "Nguyễn Phúc Thuần",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Chú"
@@ -3735,7 +3735,7 @@
     "trị vì": null,
     "sinh": "13 tháng 8, 1601 1",
     "tên": "Nguyễn Phúc Lan",
-    "mất": "19 tháng 3, 1648 (46 tuổi) 1 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Tần",
     "kế nhiệm": "Nguyễn Phúc Tần",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Nguyên"
@@ -3750,7 +3750,7 @@
     "trị vì": null,
     "sinh": "16 tháng 8, 1563 1",
     "tên": "Nguyễn Phúc Nguyên",
-    "mất": "19 tháng 11, 1635 (72 tuổi) 1 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Lan",
     "kế nhiệm": "Nguyễn Phúc Lan",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Hoàng"
@@ -3759,7 +3759,7 @@
     "trị vì": null,
     "sinh": "18 tháng 7, 1620 1",
     "tên": "Nguyễn Phúc Tần",
-    "mất": "30 tháng 4, 1687 (66 tuổi) 1 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Thái",
     "kế nhiệm": "Nguyễn Phúc Thái",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Lan"
@@ -3768,16 +3768,16 @@
     "trị vì": null,
     "sinh": "22 tháng 1, 1650 1",
     "tên": "Nguyễn Phúc Thái",
-    "mất": "7 tháng 2, 1691 (41 tuổi) 1 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Chu",
     "kế nhiệm": "Nguyễn Phúc Chu",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Tần"
   },
   {
-    "trị vì": "1765 - 1776",
+    "trị vì": null,
     "sinh": "31 tháng 12 năm 1754",
     "tên": "Nguyễn Phúc Thuần",
-    "mất": "18 tháng 10, 1777 (22 tuổi) Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Dương",
     "kế nhiệm": "Nguyễn Phúc Dương",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Khoát"
@@ -3786,7 +3786,7 @@
     "trị vì": null,
     "sinh": "3 tháng 8 năm 1872 Huế, Đại Nam",
     "tên": "Nguyễn Phúc Ưng Lịch",
-    "mất": "4 tháng 1, 1943 (71 tuổi) Alger, Algérie, Pháp",
+    "mất": "Đồng Khánh",
     "kế nhiệm": "Đồng Khánh",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Kiến Phúc"
@@ -3795,7 +3795,7 @@
     "trị vì": null,
     "sinh": "12 tháng 6, 1955 (62 tuổi) Thái Bình, Việt Nam Dân chủ Cộng hòa",
     "tên": "Nguyễn Quân",
-    "mất": null,
+    "mất": "Chu Ngọc Anh",
     "kế nhiệm": "Chu Ngọc Anh",
     "triều đại": null,
     "tiền nhiệm": "Hoàng Văn Phong"
@@ -3828,7 +3828,7 @@
     "trị vì": null,
     "sinh": "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
     "tên": "Nguyễn Sinh Côn",
-    "mất": "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+    "mất": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "kế nhiệm": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -3837,7 +3837,7 @@
     "trị vì": null,
     "sinh": "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
     "tên": "Nguyễn Sinh Cung",
-    "mất": "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+    "mất": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "kế nhiệm": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -3846,7 +3846,7 @@
     "trị vì": null,
     "sinh": "18 tháng 1, 1946 (73 tuổi) Nam Đàn, Nghệ An, Việt Nam Dân chủ Cộng hòa",
     "tên": "Nguyễn Sinh Hùng",
-    "mất": null,
+    "mất": "Nguyễn Thị Kim Ngân",
     "kế nhiệm": "Nguyễn Thị Kim Ngân",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phú Trọng"
@@ -3867,7 +3867,7 @@
     "trị vì": null,
     "sinh": "17 tháng 11, 1949 (69 tuổi) Cà Mau",
     "tên": "Nguyễn Tấn Dũng",
-    "mất": null,
+    "mất": "Nguyễn Xuân Phúc",
     "kế nhiệm": "Nguyễn Xuân Phúc",
     "triều đại": null,
     "tiền nhiệm": "Phan Văn Khải"
@@ -3876,7 +3876,7 @@
     "trị vì": null,
     "sinh": "19 tháng 5, 1890 Nghệ An, Liên bang Đông Dương",
     "tên": "Nguyễn Tất Thành",
-    "mất": "2 tháng 9, 1969 (79 tuổi) Hà Nội, Việt Nam Dân chủ Cộng hòa",
+    "mất": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "kế nhiệm": "Tôn Đức Thắng (Quyền Chủ tịch)",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -3891,7 +3891,7 @@
     "trị vì": null,
     "sinh": "25 tháng 5 năm 1791 Gia Định, Đại Việt",
     "tên": "Nguyễn Thánh Tổ",
-    "mất": "20 tháng 1, 1841 (49 tuổi) Huế, Đại Nam",
+    "mất": "Thiệu Trị",
     "kế nhiệm": "Thiệu Trị",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Gia Long"
@@ -3903,19 +3903,19 @@
     "mất": null
   },
   {
-    "trị vì": "1780 \u2013 1802",
+    "trị vì": null,
     "sinh": "8 tháng 2, 1762 Huế, Đại Việt",
     "tên": "Nguyễn Thế Tổ",
-    "mất": "3 tháng 2, 1820 (57 tuổi) Huế, Việt Nam",
+    "mất": "Lên ngôi hoàng đế",
     "kế nhiệm": "Lên ngôi hoàng đế",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Nguyễn Phúc Dương"
   },
   {
-    "trị vì": "1442 - 1459",
+    "trị vì": null,
     "sinh": "1422 Bố Vệ, Thanh Hóa",
     "tên": "Nguyễn Thị Anh",
-    "mất": "4 tháng 10, 1459 Đông Kinh",
+    "mất": "Quang Thục hoàng thái hậu",
     "kế nhiệm": "Quang Thục hoàng thái hậu",
     "triều đại": null,
     "tiền nhiệm": "Hoàng thái hậu đầu tiên Nhà Trần: Hồ Thái hậu"
@@ -3924,7 +3924,7 @@
     "trị vì": null,
     "sinh": "26 tháng 5, 1927 (90 tuổi) Sa Đéc, Đông Dương thuộc Pháp",
     "tên": "Nguyễn Thị Bình",
-    "mất": null,
+    "mất": "Trương Mỹ Hoa",
     "kế nhiệm": "Trương Mỹ Hoa",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Thị Định"
@@ -3945,7 +3945,7 @@
     "trị vì": null,
     "sinh": "11 tháng 1, 1951 (70 tuổi) Hà Nam, Việt Nam Dân chủ Cộng hòa",
     "tên": "Nguyễn Thị Doan",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Mạnh Cầm"
@@ -3954,16 +3954,16 @@
     "trị vì": null,
     "sinh": "15 tháng 3, 1920 Lương Hòa, Giồng Trôm, Bến Tre, Việt Nam",
     "tên": "Nguyễn Thị Định",
-    "mất": "26 tháng 8, 1992 (72 tuổi) Bến Tre, Việt Nam",
+    "mất": "Nguyễn Thị Bình",
     "kế nhiệm": "Nguyễn Thị Bình",
     "triều đại": null,
     "tiền nhiệm": "Lê Thanh Nghị (Tổng Thư ký) Chu Huy Mân"
   },
   {
-    "trị vì": "1806 - 1811",
+    "trị vì": null,
     "sinh": "1736 làng Minh Linh, phủ Thừa Thiên",
     "tên": "Nguyễn Thị Hoàn",
-    "mất": "30 tháng 10 năm 1811 Phú Xuân, Đại Nam",
+    "mất": "Nhân Tuyên Hoàng thái hậu",
     "kế nhiệm": "Nhân Tuyên Hoàng thái hậu",
     "triều đại": null,
     "tiền nhiệm": "Không có Hoàng thái hậu đầu tiên tại vị của nhà Nguyễn"
@@ -3972,7 +3972,7 @@
     "trị vì": null,
     "sinh": "12 tháng 4, 1954 (66 tuổi) Châu Hòa, Giồng Trôm, Bến Tre, Quốc gia Việt Nam, Liên hiệp Pháp",
     "tên": "Nguyễn Thị Kim Ngân",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Sinh Hùng"
@@ -3987,7 +3987,7 @@
     "trị vì": null,
     "sinh": "22 tháng 4, 1967 (51 tuổi) xã Hưng Xuân, huyện Hưng Nguyên, tỉnh Nghệ An, Việt Nam Dân chủ Cộng hòa",
     "tên": "Nguyễn Thị Mai Hoa",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": null
@@ -3996,7 +3996,7 @@
     "trị vì": null,
     "sinh": "12 tháng 6, 1953 (66 tuổi) Cà Mau, Liên bang Đông Dương",
     "tên": "Nguyễn Thiện Nhân",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Đinh La Thăng"
@@ -4023,7 +4023,7 @@
     "trị vì": null,
     "sinh": "18 tháng 10, 1916 (102 tuổi) Vĩnh Lộc, Thanh Hóa, Liên bang Đông Dương",
     "tên": "Nguyễn Trọng Vĩnh",
-    "mất": null,
+    "mất": "Ngô Thuyền",
     "kế nhiệm": "Ngô Thuyền",
     "triều đại": null,
     "tiền nhiệm": "Ngô Thuyền"
@@ -4080,7 +4080,7 @@
     "trị vì": null,
     "sinh": "12 tháng 10, 1946 (74 tuổi) Xã Hành Tín, huyện Nghĩa Hành, tỉnh Quảng Ngãi",
     "tên": "Nguyễn Văn Được",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Trần Hanh"
@@ -4101,7 +4101,7 @@
     "trị vì": null,
     "sinh": "1 tháng 7 năm 1915 Hà Nội, Liên bang Đông Dương",
     "tên": "Nguyễn Văn Linh",
-    "mất": "27 tháng 4, 1998 (82 tuổi) TP. Hồ Chí Minh, Việt Nam",
+    "mất": "Đỗ Mười",
     "kế nhiệm": "Đỗ Mười",
     "triều đại": null,
     "tiền nhiệm": "Trường Chinh"
@@ -4122,7 +4122,7 @@
     "trị vì": null,
     "sinh": "14 tháng 7, 1957 (63 tuổi) Huyện Gò Dầu, tỉnh Tây Ninh, Việt Nam Cộng Hòa",
     "tên": "Nguyễn Văn Nên",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Thiện Nhân"
@@ -4131,7 +4131,7 @@
     "trị vì": null,
     "sinh": "5 tháng 4, 1923 Thanh Hải, Ninh Thuận, Trung Kỳ, Liên bang Đông Dương",
     "tên": "Nguyễn Văn Thiệu",
-    "mất": "29 tháng 9, 2001 (78 tuổi) Boston, Massachusetts, Hoa Kỳ",
+    "mất": "Trần Văn Hương",
     "kế nhiệm": "Trần Văn Hương",
     "triều đại": null,
     "tiền nhiệm": "Ngô Đình Diệm"
@@ -4140,7 +4140,7 @@
     "trị vì": null,
     "sinh": "5 tháng 6, 1889 Hà Đông, Đông Dương thuộc Pháp",
     "tên": "Nguyễn Văn Tố",
-    "mất": "7 tháng 10, 1947 (58 tuổi) Bắc Kạn, Việt Nam",
+    "mất": "Trương Đình Tri1",
     "kế nhiệm": "Trương Đình Tri1",
     "triều đại": null,
     "tiền nhiệm": "không có"
@@ -4164,10 +4164,10 @@
     "mất": "19 tháng 1, 1992 (74 tuổi) Hà Nội"
   },
   {
-    "trị vì": "6 tháng 11 năm 1925 \u2013 30 tháng 8 năm 1945 (19 năm, 297 ngày)",
+    "trị vì": null,
     "sinh": "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương",
     "tên": "Nguyễn Vĩnh Thụy",
-    "mất": "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp",
+    "mất": "Không có Chế độ phong kiến sụp đổ",
     "kế nhiệm": "Không có Chế độ phong kiến sụp đổ",
     "triều đại": "Nhà Nguyễn",
     "tiền nhiệm": "Khải Định"
@@ -4182,7 +4182,7 @@
     "trị vì": null,
     "sinh": "27 tháng 7 năm 1907 Vinh, Nghệ An, Liên bang Đông Dương",
     "tên": "Nguyễn Xiển",
-    "mất": "9 tháng 11, 1997 (90 tuổi) Hà Nội, Việt Nam",
+    "mất": "giải thể",
     "kế nhiệm": "giải thể",
     "triều đại": null,
     "tiền nhiệm": "Chu Bá Phượng Vũ Đình Tụng"
@@ -4191,7 +4191,7 @@
     "trị vì": null,
     "sinh": "20 tháng 7, 1954 (64 tuổi) Quế Sơn, Quảng Nam, Quốc gia Việt Nam",
     "tên": "Nguyễn Xuân Phúc",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Tấn Dũng"
@@ -4224,16 +4224,16 @@
     "trị vì": null,
     "sinh": "6 tháng 8, 1944 (74 tuổi) Phú Thọ, Liên bang Đông Dương",
     "tên": "Phạm Gia Khiêm",
-    "mất": null,
+    "mất": "Phạm Bình Minh",
     "kế nhiệm": "Phạm Bình Minh",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Dy Niên"
   },
   {
-    "trị vì": "380-413",
+    "trị vì": null,
     "sinh": "? Kandapurpura",
     "tên": "Phạm Hồ Đạt",
-    "mất": "?",
+    "mất": "Gangajai",
     "kế nhiệm": "Gangajai",
     "triều đại": null,
     "tiền nhiệm": "Phạm Phật"
@@ -4242,7 +4242,7 @@
     "trị vì": null,
     "sinh": "11 tháng 6, 1912 Long Hồ, Châu Thành, Vĩnh Long, Liên bang Đông Dương",
     "tên": "Phạm Hùng",
-    "mất": "10 tháng 3, 1988 (75 tuổi) Thành phố Hồ Chí Minh, Việt Nam",
+    "mất": "Võ Văn Kiệt (Quyền) Đỗ Mười",
     "kế nhiệm": "Võ Văn Kiệt (Quyền) Đỗ Mười",
     "triều đại": null,
     "tiền nhiệm": "Phạm Văn Đồng"
@@ -4257,7 +4257,7 @@
     "trị vì": null,
     "sinh": "7 tháng 5, 1909 Quy Nhơn, Bình Định, Liên bang Đông Dương",
     "tên": "Phạm Ngọc Thạch",
-    "mất": "7 tháng 11, 1968 (59 tuổi) Tây Ninh, Việt Nam Cộng hòa",
+    "mất": "Nguyễn Văn Hưởng",
     "kế nhiệm": "Nguyễn Văn Hưởng",
     "triều đại": null,
     "tiền nhiệm": "Hoàng Tích Trí"
@@ -4278,7 +4278,7 @@
     "trị vì": null,
     "sinh": "17 tháng 12, 1892 Hà Nội, Bắc Kỳ, Liên bang Đông Dương",
     "tên": "Phạm Quỳnh",
-    "mất": "6 tháng 9, 1945 (52 tuổi) Thừa Thiên, Trung Bộ, Việt Nam Dân chủ Cộng hòa",
+    "mất": "Trần Trọng Kim",
     "kế nhiệm": "Trần Trọng Kim",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Hữu Bài"
@@ -4287,16 +4287,16 @@
     "trị vì": null,
     "sinh": "19 tháng 8, 1952 (66 tuổi) Bắc Giang, Việt Nam Dân chủ Cộng hòa",
     "tên": "Phạm Thị Hải Chuyền",
-    "mất": null,
+    "mất": "Đào Ngọc Dung",
     "kế nhiệm": "Đào Ngọc Dung",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Thị Kim Ngân"
   },
   {
-    "trị vì": "1847 - 1883",
+    "trị vì": null,
     "sinh": "20 tháng 6, 1810 Tân Hòa (sau là Gò Công), Đại Nam",
     "tên": "Phạm Thị Hằng",
-    "mất": "12 tháng 5, 1902 (91 tuổi) Huế, Đại Nam",
+    "mất": "Trang Ý Hoàng thái hậu",
     "kế nhiệm": "Trang Ý Hoàng thái hậu",
     "triều đại": null,
     "tiền nhiệm": "Nhân Tuyên Hoàng thái hậu"
@@ -4305,7 +4305,7 @@
     "trị vì": null,
     "sinh": "1753 Bình Định, Đàng Trong, Đại Việt",
     "tên": "Phạm Thị Liên",
-    "mất": "16 tháng 9, 1792 (38\u201339 tuổi) Phú Xuân, Đại Việt",
+    "mất": "Cảnh Thịnh Hoàng đế",
     "kế nhiệm": "Cảnh Thịnh Hoàng đế",
     "triều đại": "Nhà Tây Sơn",
     "tiền nhiệm": "Thái Đức Hoàng đế"
@@ -4332,7 +4332,7 @@
     "trị vì": null,
     "sinh": "1 tháng 3, 1906 Đức Tân, Mộ Đức, Quảng Ngãi, Liên bang Đông Dương",
     "tên": "Phạm Văn Đồng",
-    "mất": "29 tháng 4, 2000 (94 tuổi) Hà Nội, Việt Nam",
+    "mất": "Không có",
     "kế nhiệm": "Không có",
     "triều đại": null,
     "tiền nhiệm": "Hồ Chí Minh"
@@ -4353,7 +4353,7 @@
     "trị vì": null,
     "sinh": "19 tháng 8, 1935 (85 tuổi) Quế Võ, Bắc Ninh, Liên bang Đông Dương",
     "tên": "Phạm Văn Trà",
-    "mất": null,
+    "mất": "Phùng Quang Thanh",
     "kế nhiệm": "Phùng Quang Thanh",
     "triều đại": null,
     "tiền nhiệm": "Đoàn Khuê"
@@ -4404,7 +4404,7 @@
     "trị vì": null,
     "sinh": "12 tháng 6, 1908 Xã Thạch Châu, huyện Lộc Hà, tỉnh Hà Tĩnh, xứ Trung Kỳ",
     "tên": "Phan Huy Quát",
-    "mất": "27 tháng 4, 1979 Nhà lao Chí Hòa, thành phố Hồ Chí Minh, Việt Nam",
+    "mất": "?",
     "kế nhiệm": "?",
     "triều đại": null,
     "tiền nhiệm": "?"
@@ -4419,7 +4419,7 @@
     "trị vì": null,
     "sinh": "3 tháng 2, 1892 Đường Lâm, Phúc Thọ, Sơn Tây, Hà Nội, Liên bang Đông Dương",
     "tên": "Phan Kế Toại",
-    "mất": "26 tháng 6, 1973 (81 tuổi)",
+    "mất": "Ung Văn Khiêm",
     "kế nhiệm": "Ung Văn Khiêm",
     "triều đại": null,
     "tiền nhiệm": "Huỳnh Thúc Kháng"
@@ -4428,7 +4428,7 @@
     "trị vì": null,
     "sinh": "9 tháng 1 năm 1905 tổng An Trường, quận Cái Vồn, Cần Thơ, Nam Kỳ",
     "tên": "Phan Khắc Sửu",
-    "mất": "24 tháng 5, 1970 (65 tuổi) Sài Gòn, Việt Nam Cộng hòa",
+    "mất": "Nguyễn Văn Thiệu",
     "kế nhiệm": "Nguyễn Văn Thiệu",
     "triều đại": null,
     "tiền nhiệm": "Dương Văn Minh"
@@ -4455,7 +4455,7 @@
     "trị vì": null,
     "sinh": "1946 huyện Củ Chi, tỉnh Gia Định, nay là thành phố Hồ Chí Minh",
     "tên": "Phan Trung Kiên",
-    "mất": null,
+    "mất": "Nguyễn Văn Chia",
     "kế nhiệm": "Nguyễn Văn Chia",
     "triều đại": null,
     "tiền nhiệm": "Lê Văn Dũng"
@@ -4464,7 +4464,7 @@
     "trị vì": null,
     "sinh": "25 tháng 12, 1933 tổng Long Tuy Hạ, quận Hóc Môn, tỉnh Gia Định, Nam Kỳ, Đông Dương thuộc Pháp",
     "tên": "Phan Văn Khải",
-    "mất": "17 tháng 3, 2018 (84 tuổi) Thành phố Hồ Chí Minh, Việt Nam",
+    "mất": "Nguyễn Tấn Dũng",
     "kế nhiệm": "Nguyễn Tấn Dũng",
     "triều đại": null,
     "tiền nhiệm": "Võ Văn Kiệt"
@@ -4473,7 +4473,7 @@
     "trị vì": null,
     "sinh": "25 tháng 12, 1967 (49 tuổi) xã Thường Phước 2, huyện Hồng Ngự, tỉnh Đồng Tháp, Việt Nam Cộng hòa",
     "tên": "Phan Văn Thắng",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Lê Minh Hoan"
@@ -4506,7 +4506,7 @@
     "trị vì": null,
     "sinh": "259 TCN",
     "tên": "Tần Thủy Hoàng",
-    "mất": "210 TCN Trung Quốc",
+    "mất": "Thay đổi tước hiệu",
     "kế nhiệm": "Thay đổi tước hiệu",
     "triều đại": "Nhà Tần",
     "tiền nhiệm": "Tần Trang Tương vương"
@@ -4515,7 +4515,7 @@
     "trị vì": null,
     "sinh": "18 tháng 2, 259 TCN Hàm Đan",
     "tên": "Tần Thủy Hoàng Đế",
-    "mất": "11 tháng 7, 210 TCN Cự Lộc quận (鉅鹿郡)",
+    "mất": "Tần Nhị Thế",
     "kế nhiệm": "Tần Nhị Thế",
     "triều đại": "Nhà Tần",
     "tiền nhiệm": "Tần Trang Tương vương"
@@ -4524,7 +4524,7 @@
     "trị vì": null,
     "sinh": "1162 Dãy núi Khentii, Mông Cổ",
     "tên": "Thành Cát Tư Hãn",
-    "mất": "18 tháng 8, 1228 (65 tuổi)",
+    "mất": "Oa Khoát Đài",
     "kế nhiệm": "Oa Khoát Đài",
     "triều đại": null,
     "tiền nhiệm": "Sáng lập"
@@ -4533,7 +4533,7 @@
     "trị vì": null,
     "sinh": "11 tháng 2 năm 1102 Hạ Mỗ, huyện Vĩnh Khang",
     "tên": "Tô Hiến Thành",
-    "mất": "17 tháng 7 năm 1179 Thăng Long",
+    "mất": "Đỗ An Di",
     "kế nhiệm": "Đỗ An Di",
     "triều đại": null,
     "tiền nhiệm": "Đỗ Anh Vũ"
@@ -4548,7 +4548,7 @@
     "trị vì": null,
     "sinh": "12 tháng 11, 1866 Hương Sơn, Quảng Đông, Đại Thanh",
     "tên": "Tôn Dật Tiên",
-    "mất": "12 tháng 3, 1925 (58 tuổi) Bắc Kinh, Trung Hoa Dân Quốc",
+    "mất": "Viên Thế Khải (Tổng thống đầu tiên)",
     "kế nhiệm": "Viên Thế Khải (Tổng thống đầu tiên)",
     "triều đại": null,
     "tiền nhiệm": "Phổ Nghi (Hoàng đế Trung Hoa)"
@@ -4557,7 +4557,7 @@
     "trị vì": null,
     "sinh": "20 tháng 8 năm 1888 Long Xuyên, An Giang, Liên bang Đông Dương",
     "tên": "Tôn Đức Thắng",
-    "mất": "30 tháng 3, 1980 (91 tuổi) Hà Nội",
+    "mất": "Trường Chinh",
     "kế nhiệm": "Trường Chinh",
     "triều đại": null,
     "tiền nhiệm": "Nhà nước đổi tên"
@@ -4566,16 +4566,16 @@
     "trị vì": null,
     "sinh": "242",
     "tên": "Tôn Hạo",
-    "mất": "284 Lạc Dương, Hà Nam",
+    "mất": "không có (Đông Ngô diệt vong)",
     "kế nhiệm": "không có (Đông Ngô diệt vong)",
     "triều đại": "Nhà Đông Ngô",
     "tiền nhiệm": "Đông Ngô Cảnh Đế"
   },
   {
-    "trị vì": "23 tháng 5 229 \u2013 21 tháng 5 252 22 năm, 344 ngày",
+    "trị vì": null,
     "sinh": "5 tháng 7 năm 182 Hạ Bi, Từ Châu, Nhà Hán",
     "tên": "Tôn Quyền",
-    "mất": "21 tháng 5 năm 252 (70 tuổi)[a] Kiến Nghiệp, Đông Ngô",
+    "mất": "Tôn Lượng",
     "kế nhiệm": "Tôn Lượng",
     "triều đại": null,
     "tiền nhiệm": "Tôn Sách"
@@ -4584,7 +4584,7 @@
     "trị vì": null,
     "sinh": "12 tháng 11, 1866 Hương Sơn, Quảng Đông, Đại Thanh",
     "tên": "Tôn Trung Sơn",
-    "mất": "12 tháng 3, 1925 (58 tuổi) Bắc Kinh, Trung Hoa Dân Quốc",
+    "mất": "Viên Thế Khải (Tổng thống đầu tiên)",
     "kế nhiệm": "Viên Thế Khải (Tổng thống đầu tiên)",
     "triều đại": null,
     "tiền nhiệm": "Phổ Nghi (Hoàng đế Trung Hoa)"
@@ -4593,7 +4593,7 @@
     "trị vì": null,
     "sinh": "1396",
     "tên": "Trần An",
-    "mất": "?",
+    "mất": "Nhà Hồ cướp ngôi",
     "kế nhiệm": "Nhà Hồ cướp ngôi",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Thuận Tông"
@@ -4602,7 +4602,7 @@
     "trị vì": null,
     "sinh": "503",
     "tên": "Trần Bá Tiên",
-    "mất": "559",
+    "mất": "Trần Văn Đế",
     "kế nhiệm": "Trần Văn Đế",
     "triều đại": "Nam Trần",
     "tiền nhiệm": "Thành lập Nam Trần"
@@ -4611,7 +4611,7 @@
     "trị vì": null,
     "sinh": "9 tháng 7, 1218 Hương Tức Mặc (nay thuộc Nam Định)",
     "tên": "Trần Cảnh",
-    "mất": "5\/51277.Hưởng thọ 60 tuổi Điện Vạn Thọ, Thăng Long",
+    "mất": "Trần Thánh Tông",
     "kế nhiệm": "Trần Thánh Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Sáng lập triều đại Lý Chiêu Hoàng (trên thực tế)"
@@ -4620,7 +4620,7 @@
     "trị vì": null,
     "sinh": "16 tháng 1 năm 1912 Từ Liêm, Hà Nội",
     "tên": "Trần Duy Hưng",
-    "mất": "2 tháng 10, 1988 (76 tuổi) Hà Nội",
+    "mất": "Ngô Ngọc Du",
     "kế nhiệm": "Ngô Ngọc Du",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Huy Khôi"
@@ -4635,7 +4635,7 @@
     "trị vì": null,
     "sinh": "12 tháng 10, 1956 (61 tuổi) thôn Lưu Quang, xã Quang Thiện, Kim Sơn, Ninh Bình, Việt Nam Dân chủ Cộng hòa",
     "tên": "Trần Đại Quang",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Trương Tấn Sang"
@@ -4668,7 +4668,7 @@
     "trị vì": null,
     "sinh": "5 tháng 5, 1937 (80 tuổi) Quảng Ngãi, Liên bang Đông Dương",
     "tên": "Trần Đức Lương",
-    "mất": null,
+    "mất": "Nguyễn Minh Triết",
     "kế nhiệm": "Nguyễn Minh Triết",
     "triều đại": null,
     "tiền nhiệm": "Lê Đức Anh"
@@ -4683,7 +4683,7 @@
     "trị vì": null,
     "sinh": "6 tháng 3, 1361 Thăng Long",
     "tên": "Trần Giản Hoàng",
-    "mất": "6 tháng 12, 1388 (27 tuổi) Thăng Long",
+    "mất": "Trần Thuận Tông",
     "kế nhiệm": "Trần Thuận Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Duệ Tông"
@@ -4692,7 +4692,7 @@
     "trị vì": null,
     "sinh": "29 tháng 11, 1932 (88 tuổi)",
     "tên": "Trần Hanh",
-    "mất": null,
+    "mất": "Nguyễn Văn Được",
     "kế nhiệm": "Nguyễn Văn Được",
     "triều đại": null,
     "tiền nhiệm": "Đặng Quân Thụy"
@@ -4707,7 +4707,7 @@
     "trị vì": null,
     "sinh": "12 tháng 10 năm 1240 Thăng Long",
     "tên": "Trần Hoảng",
-    "mất": "3 tháng 7, 1290 (49 tuổi) Cung Nhân Thọ, Thăng Long",
+    "mất": "Trần Nhân Tông",
     "kế nhiệm": "Trần Nhân Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Thái Tông"
@@ -4722,16 +4722,16 @@
     "trị vì": null,
     "sinh": "15 tháng 1, 1910 Quảng Trị, Liên bang Đông Dương",
     "tên": "Trần Hữu Dực",
-    "mất": "21 tháng 8, 1993 (83 tuổi) Hà Nội, Việt Nam",
+    "mất": "Trần Lê",
     "kế nhiệm": "Trần Lê",
     "triều đại": null,
     "tiền nhiệm": "Hoàng Quốc Việt"
   },
   {
-    "trị vì": "1360 - 1363",
+    "trị vì": null,
     "sinh": "1320",
     "tên": "Trần Hữu Lượng",
-    "mất": "3 tháng 10, 1363 Hồ Bà Dương",
+    "mất": "Trần Lý",
     "kế nhiệm": "Trần Lý",
     "triều đại": null,
     "tiền nhiệm": "Không"
@@ -4740,7 +4740,7 @@
     "trị vì": null,
     "sinh": "5 tháng 11 năm 1901 Vụ Bản, Nam Định",
     "tên": "Trần Huy Liệu",
-    "mất": "28 tháng 7, 1969 (67 tuổi) Hà Nội",
+    "mất": "bãi bỏ",
     "kế nhiệm": "bãi bỏ",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -4749,7 +4749,7 @@
     "trị vì": null,
     "sinh": "7 tháng 12, 1258 Thăng Long",
     "tên": "Trần Khâm",
-    "mất": "14 hoặc 16 tháng 12, 1308 (50 tuổi) Am Ngọa Vân, núi Yên Tử",
+    "mất": "Trần Anh Tông",
     "kế nhiệm": "Trần Anh Tông",
     "triều đại": null,
     "tiền nhiệm": "Trần Thánh Tông"
@@ -4788,7 +4788,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Trần Linh Công",
-    "mất": "599 TCN Trung Quốc",
+    "mất": "Trần Chinh Thư",
     "kế nhiệm": "Trần Chinh Thư",
     "triều đại": null,
     "tiền nhiệm": "Trần Cung công"
@@ -4797,7 +4797,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Trần Lưu",
-    "mất": "Trung Quốc",
+    "mất": "Sở Bình vương",
     "kế nhiệm": "Sở Bình vương",
     "triều đại": null,
     "tiền nhiệm": "Trần Ai công"
@@ -4812,7 +4812,7 @@
     "trị vì": null,
     "sinh": "4 tháng 9, 1300 Thăng Long",
     "tên": "Trần Mạnh",
-    "mất": "10 tháng 3, 1357 (56 tuổi) Cung Bảo Nguyên, Thăng Long",
+    "mất": "Trần Hiến Tông",
     "kế nhiệm": "Trần Hiến Tông",
     "triều đại": null,
     "tiền nhiệm": "Trần Anh Tông"
@@ -4830,10 +4830,10 @@
     "mất": "18 tháng 6, 1950 Đài Bắc, Đài Loan"
   },
   {
-    "trị vì": "1407 \u2013 1409",
+    "trị vì": null,
     "sinh": null,
     "tên": "Trần Ngỗi",
-    "mất": "1410",
+    "mất": "Trùng Quang Đế",
     "kế nhiệm": "Trùng Quang Đế",
     "triều đại": "Nhà Hậu Trần",
     "tiền nhiệm": null
@@ -4842,7 +4842,7 @@
     "trị vì": null,
     "sinh": "1377",
     "tên": "Trần Ngung",
-    "mất": "tháng 4, 1399",
+    "mất": "Trần Thiếu Đế",
     "kế nhiệm": "Trần Thiếu Đế",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Phế Đế"
@@ -4866,10 +4866,10 @@
     "mất": "1330 Thăng Long, Đại Việt"
   },
   {
-    "trị vì": "9 tháng 11 năm 1372 - 15 tháng 12 năm 1394 (23 năm, 36 ngày)",
+    "trị vì": null,
     "sinh": "tháng 12, năm 1321",
     "tên": "Trần Phủ",
-    "mất": "15 tháng 12, 1394 (72\u201373 tuổi) Thăng Long",
+    "mất": "Trần Duệ Tông",
     "kế nhiệm": "Trần Duệ Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Dụ Tông Hôn Đức Công"
@@ -4878,7 +4878,7 @@
     "trị vì": null,
     "sinh": "1 tháng 5, 1904 Tuy An, Phú Yên, Liên bang Đông Dương",
     "tên": "Trần Phú",
-    "mất": "6 tháng 9, 1931 (27 tuổi) Sài Gòn, Liên bang Đông Dương",
+    "mất": "Lê Hồng Phong",
     "kế nhiệm": "Lê Hồng Phong",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Đình Cửu"
@@ -4911,7 +4911,7 @@
     "trị vì": null,
     "sinh": "23 tháng 1, 1916 Nam Trung, Nam Đàn, Nghệ An, Trung Kỳ, Liên bang Đông Dương",
     "tên": "Trần Quốc Hoàn",
-    "mất": "5 tháng 6, 1986 (70 tuổi) Hà Nội, Việt Nam",
+    "mất": "Bãi bỏ",
     "kế nhiệm": "Bãi bỏ",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -4950,7 +4950,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Trần Quý Khoáng",
-    "mất": "1414",
+    "mất": "Trần Cảo",
     "kế nhiệm": "Trần Cảo",
     "triều đại": "Nhà Hậu Trần",
     "tiền nhiệm": "Giản Định Đế"
@@ -4959,7 +4959,7 @@
     "trị vì": null,
     "sinh": "1 tháng 1, 1920 Triệu Phong, Quảng Trị, Liên bang Đông Dương",
     "tên": "Trần Quỳnh",
-    "mất": "7 tháng 10, 2005 (85 tuổi) Hà Nội, Việt Nam",
+    "mất": "Lê Khắc",
     "kế nhiệm": "Lê Khắc",
     "triều đại": null,
     "tiền nhiệm": "Trần Đại Nghĩa"
@@ -4968,16 +4968,16 @@
     "trị vì": null,
     "sinh": "1184 hương Tức Mặc, Hải Ấp (nay là huyện Mỹ Lộc, Nam Định)",
     "tên": "Trần Thái Tổ",
-    "mất": "17 tháng 2, 1234 Phụ Thiên cung (附天宮), Đại Việt",
+    "mất": "Trần Thái Tông",
     "kế nhiệm": "Trần Thái Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Không có Thái thượng hoàng đầu tiên của triều đại"
   },
   {
-    "trị vì": "209 TCN - 208 TCN",
+    "trị vì": null,
     "sinh": "Dương Thành, Hà Nam",
     "tên": "Trần Thắng",
-    "mất": "208 TCN Hạ Thành Phụ",
+    "mất": "Sở Giả Vương",
     "kế nhiệm": "Sở Giả Vương",
     "triều đại": null,
     "tiền nhiệm": "Sở Vương Tương Cương"
@@ -4989,10 +4989,10 @@
     "mất": null
   },
   {
-    "trị vì": "1506 - 1509",
+    "trị vì": null,
     "sinh": "làng Nhân Mục",
     "tên": "Trần Thị Tùng",
-    "mất": "1509 khu chùa ở Bạch Mai, Hà Nội",
+    "mất": "Tương Dực Nguyễn hoàng hậu",
     "kế nhiệm": "Tương Dực Nguyễn hoàng hậu",
     "triều đại": null,
     "tiền nhiệm": "Hoàng hậu đầu tiên của nhà Hậu Lê"
@@ -5013,16 +5013,16 @@
     "trị vì": null,
     "sinh": "1184 hương Tức Mặc, Hải Ấp (nay là huyện Mỹ Lộc, Nam Định)",
     "tên": "Trần Thừa",
-    "mất": "17 tháng 2, 1234 Phụ Thiên cung (附天宮), Đại Việt",
+    "mất": "Trần Thái Tông",
     "kế nhiệm": "Trần Thái Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Không có Thái thượng hoàng đầu tiên của triều đại"
   },
   {
-    "trị vì": "582 - 589",
+    "trị vì": null,
     "sinh": "553",
     "tên": "Trần Thúc Bảo",
-    "mất": "604",
+    "mất": "triều đại sụp đổ, bị nhà Tuỳ đánh bại",
     "kế nhiệm": "triều đại sụp đổ, bị nhà Tuỳ đánh bại",
     "triều đại": null,
     "tiền nhiệm": "Trần Tuyên Đế"
@@ -5031,7 +5031,7 @@
     "trị vì": null,
     "sinh": "25 tháng 10 năm 1276",
     "tên": "Trần Thuyên",
-    "mất": "21 tháng 4, 1320 (43 tuổi) Cung Trùng Quang, Thiên Trường",
+    "mất": "Trần Minh Tông",
     "kế nhiệm": "Trần Minh Tông",
     "triều đại": "Nhà Trần",
     "tiền nhiệm": "Trần Nhân Tông"
@@ -5046,7 +5046,7 @@
     "trị vì": null,
     "sinh": "1883 Xuân phổ Nghi Xuân, Hà Tĩnh, Đại Nam",
     "tên": "Trần Trọng Kim",
-    "mất": "2 tháng 12, 1953 (70 tuổi) Đà Lạt",
+    "mất": "Hồ Chí Minh (Chủ tịch nước VNDCCH)",
     "kế nhiệm": "Hồ Chí Minh (Chủ tịch nước VNDCCH)",
     "triều đại": null,
     "tiền nhiệm": "Không"
@@ -5064,10 +5064,10 @@
     "mất": "7 tháng 3, 1983 (87 tuổi) Thành phố Hồ Chí Minh, Việt Nam"
   },
   {
-    "trị vì": "568 - 582",
+    "trị vì": null,
     "sinh": "530",
     "tên": "Trần Tuyên Đế",
-    "mất": "582",
+    "mất": "Trần Thúc Bảo",
     "kế nhiệm": "Trần Thúc Bảo",
     "triều đại": null,
     "tiền nhiệm": "Trần Bá Tông"
@@ -5106,7 +5106,7 @@
     "trị vì": null,
     "sinh": "1902 làng Long Châu, quận Châu Thành, tỉnh Vĩnh Long",
     "tên": "Trần Văn Hương",
-    "mất": "27 tháng 1, 1982 (80 tuổi) Sài Gòn, Việt Nam",
+    "mất": "Dương Văn Minh",
     "kế nhiệm": "Dương Văn Minh",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Văn Thiệu"
@@ -5115,7 +5115,7 @@
     "trị vì": null,
     "sinh": "1913 Chợ Lớn, Liên bang Đông Dương",
     "tên": "Trần Văn Lắm",
-    "mất": "2001 Canberra, Úc",
+    "mất": "chức vụ bãi bỏ",
     "kế nhiệm": "chức vụ bãi bỏ",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Văn Huyền"
@@ -5136,7 +5136,7 @@
     "trị vì": null,
     "sinh": "1 tháng 11, 1961 (59 tuổi) xã Phú Lộc, huyện Tam Bình, tỉnh Vĩnh Long, Việt Nam",
     "tên": "Trần Văn Rón",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Bùi Thị Minh Hoài"
@@ -5151,7 +5151,7 @@
     "trị vì": null,
     "sinh": null,
     "tên": "Triệu Anh Tề",
-    "mất": "113 TCN Nam Việt",
+    "mất": "Triệu Ai Vương",
     "kế nhiệm": "Triệu Ai Vương",
     "triều đại": "Nhà Triệu",
     "tiền nhiệm": "Triệu Văn Đế"
@@ -5166,16 +5166,16 @@
     "trị vì": null,
     "sinh": "12 tháng 2, 1271",
     "tên": "Triệu Bính",
-    "mất": "19 tháng 3, 1279 (8 tuổi) Quảng Đông, Trung Quốc",
+    "mất": "Triều đại sụp đổ",
     "kế nhiệm": "Triều đại sụp đổ",
     "triều đại": "Nhà Nam Tống",
     "tiền nhiệm": "Tống Đoan Tông"
   },
   {
-    "trị vì": "25 tháng 7 năm 1162 \u2013 9 tháng 11 năm 1187 (25 năm, 107 ngày)",
+    "trị vì": null,
     "sinh": "12 tháng 6, 1107",
     "tên": "Triệu Cấu",
-    "mất": "9 tháng 11, 1187 (80 tuổi) Trung Quốc",
+    "mất": "Tống Hiếu Tông",
     "kế nhiệm": "Tống Hiếu Tông",
     "triều đại": "Nhà Nam Tống",
     "tiền nhiệm": "Tống Khâm Tông"
@@ -5184,7 +5184,7 @@
     "trị vì": null,
     "sinh": "257 TCN huyện Chân Định (真定), quận Hằng Sơn (恒山), đời nhà Tần (nay là huyện Chính Định (正定), tỉnh Hà Bắc), Trung Quốc",
     "tên": "Triệu Đà",
-    "mất": "137 TCN (120 tuổi) Phiên Ngung (nay là thành phố Quảng Châu, tỉnh Quảng Đông, Trung Quốc)",
+    "mất": "Triệu Văn Đế",
     "kế nhiệm": "Triệu Văn Đế",
     "triều đại": "Nhà Triệu",
     "tiền nhiệm": null
@@ -5199,7 +5199,7 @@
     "trị vì": null,
     "sinh": "23 tháng 12, 968",
     "tên": "Triệu Hằng",
-    "mất": "23 tháng 3, 1022 (53 tuổi) Khai Phong, Trung Quốc",
+    "mất": "Tống Nhân Tông",
     "kế nhiệm": "Tống Nhân Tông",
     "triều đại": "Nhà Bắc Tống",
     "tiền nhiệm": "Tống Thái Tông"
@@ -5208,7 +5208,7 @@
     "trị vì": null,
     "sinh": "175 TCN",
     "tên": "Triệu Hồ",
-    "mất": "124 TCN Nam Việt",
+    "mất": "Triệu Minh Đế",
     "kế nhiệm": "Triệu Minh Đế",
     "triều đại": "Nhà Triệu",
     "tiền nhiệm": "Triệu Vũ Đế"
@@ -5217,7 +5217,7 @@
     "trị vì": null,
     "sinh": "117 TCN",
     "tên": "Triệu Hưng",
-    "mất": "112 TCN Nam Việt",
+    "mất": "Triệu Dương Vương",
     "kế nhiệm": "Triệu Dương Vương",
     "triều đại": "Nhà Triệu",
     "tiền nhiệm": "Triệu Minh Vương"
@@ -5226,7 +5226,7 @@
     "trị vì": null,
     "sinh": "21 tháng 3, 9273 Lạc Dương, Trung Quốc",
     "tên": "Triệu Khuông Dận",
-    "mất": "14 tháng 11, 976 (49 tuổi) Trung Quốc",
+    "mất": "Tống Thái Tông",
     "kế nhiệm": "Tống Thái Tông",
     "triều đại": "Nhà Bắc Tống",
     "tiền nhiệm": "Sáng lập triều đại"
@@ -5235,7 +5235,7 @@
     "trị vì": null,
     "sinh": "?",
     "tên": "Triệu Kiến Đức",
-    "mất": "111 TCN Nam Việt",
+    "mất": "Triều đại diệt vong",
     "kế nhiệm": "Triều đại diệt vong",
     "triều đại": "Nhà Triệu",
     "tiền nhiệm": "Triệu Ai Vương"
@@ -5247,10 +5247,10 @@
     "mất": null
   },
   {
-    "trị vì": "548 - 571",
+    "trị vì": null,
     "sinh": null,
     "tên": "Triệu Quang Phục",
-    "mất": "571",
+    "mất": "Hậu Lý Nam Đế",
     "kế nhiệm": "Hậu Lý Nam Đế",
     "triều đại": null,
     "tiền nhiệm": "Lý Nam Đế"
@@ -5259,7 +5259,7 @@
     "trị vì": null,
     "sinh": "656 TCN Trung Quốc",
     "tên": "Triệu Thuẫn",
-    "mất": "601 TCN Trung Quốc",
+    "mất": "Triệu Quát",
     "kế nhiệm": "Triệu Quát",
     "triều đại": null,
     "tiền nhiệm": "Triệu Thôi"
@@ -5280,25 +5280,25 @@
     "trị vì": null,
     "sinh": "257 TCN huyện Chân Định (真定), quận Hằng Sơn (恒山), đời nhà Tần (nay là huyện Chính Định (正定), tỉnh Hà Bắc), Trung Quốc",
     "tên": "Triệu Vũ Đế",
-    "mất": "137 TCN (120 tuổi) Phiên Ngung (nay là thành phố Quảng Châu, tỉnh Quảng Đông, Trung Quốc)",
+    "mất": "Triệu Văn Đế",
     "kế nhiệm": "Triệu Văn Đế",
     "triều đại": "Nhà Triệu",
     "tiền nhiệm": null
   },
   {
-    "trị vì": "tháng 9 năm 1786 \u2013 tháng 9 năm 1787",
+    "trị vì": null,
     "sinh": "1740 ?",
     "tên": "Trịnh Bồng",
-    "mất": "13 tháng 2, 1791 (50\u201351 tuổi) Ai Lao",
+    "mất": "Không có (Chính quyền sụp đổ)",
     "kế nhiệm": "Không có (Chính quyền sụp đổ)",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Khải"
   },
   {
-    "trị vì": "1740 \u2013 1767",
+    "trị vì": null,
     "sinh": "1720",
     "tên": "Trịnh Doanh",
-    "mất": "1767 (46\u201347 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Sâm",
     "kế nhiệm": "Trịnh Sâm",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Giang"
@@ -5307,16 +5307,16 @@
     "trị vì": null,
     "sinh": "19 tháng 6 năm 1906 Thanh Trì, Hà Đông",
     "tên": "Trịnh Đình Cửu",
-    "mất": "24 tháng 10, 1990 (84 tuổi) Hà Nội",
+    "mất": "Trần Phú (trên cương vị Tổng Bí thư)",
     "kế nhiệm": "Trần Phú (trên cương vị Tổng Bí thư)",
     "triều đại": null,
     "tiền nhiệm": "đầu tiên"
   },
   {
-    "trị vì": "1729 \u2013 1740",
+    "trị vì": null,
     "sinh": "1711",
     "tên": "Trịnh Giang",
-    "mất": "1762 (50\u201351 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Doanh",
     "kế nhiệm": "Trịnh Doanh",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Cương"
@@ -5328,19 +5328,19 @@
     "mất": "1433 (61 \u2013 62 tuổi) chết trên biển"
   },
   {
-    "trị vì": "1782 \u2013 1786",
+    "trị vì": null,
     "sinh": "1763",
     "tên": "Trịnh Khải",
-    "mất": "1786 (22\u201323 tuổi) Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Bồng",
     "kế nhiệm": "Trịnh Bồng",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Cán"
   },
   {
-    "trị vì": "28 tháng 12, 1767 \u2013 6 tháng 4, 1782 14 năm, 99 ngày",
+    "trị vì": null,
     "sinh": "17 tháng 4, 1734 Ayutthaya, Vương quốc Ayutthaya",
     "tên": "Trịnh Quốc Anh",
-    "mất": "7 tháng 4, 1782 (47 tuổi) Cung điện Wang Derm, Thon Buri, Vương quốc Thonburi",
+    "mất": "Buddha Yodfa Chulaloke (của vương triều Chakri)",
     "kế nhiệm": "Buddha Yodfa Chulaloke (của vương triều Chakri)",
     "triều đại": null,
     "tiền nhiệm": "triều đại thành lập"
@@ -5349,34 +5349,34 @@
     "trị vì": null,
     "sinh": "9 tháng 2, 1739",
     "tên": "Trịnh Sâm",
-    "mất": "13 tháng 9, 1782 (43 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Cán",
     "kế nhiệm": "Trịnh Cán",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Doanh"
   },
   {
-    "trị vì": "1657 \u2013 1682",
+    "trị vì": null,
     "sinh": "11 tháng 4, 1606",
     "tên": "Trịnh Tạc",
-    "mất": "24 tháng 9, 1682 (76 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Căn",
     "kế nhiệm": "Trịnh Căn",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Tráng"
   },
   {
-    "trị vì": "1623 \u2013 1657",
+    "trị vì": null,
     "sinh": "1577",
     "tên": "Trịnh Tráng",
-    "mất": "1657 (79\u201380 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Tạc",
     "kế nhiệm": "Trịnh Tạc",
     "triều đại": null,
     "tiền nhiệm": "Trịnh Tùng"
   },
   {
-    "trị vì": "1570 \u2013 1623",
+    "trị vì": null,
     "sinh": "1550",
     "tên": "Trịnh Tùng",
-    "mất": "1623 (72\u201373 tuổi) Thanh Oai, Đông Kinh, Đàng Ngoài, Đại Việt",
+    "mất": "Trịnh Tráng",
     "kế nhiệm": "Trịnh Tráng",
     "triều đại": "Vương tộc Trịnh",
     "tiền nhiệm": "Trịnh Cối"
@@ -5391,7 +5391,7 @@
     "trị vì": null,
     "sinh": "5 tháng 10 năm 1914 Bình Giang, tỉnh Hồ Nam, Trung Hoa Dân Quốc",
     "tên": "Trương Chấn",
-    "mất": "3 tháng 9 năm 2015 (100 tuổi) Bắc Kinh",
+    "mất": "Hồng Học Trí",
     "kế nhiệm": "Hồng Học Trí",
     "triều đại": null,
     "tiền nhiệm": "Trương Tông Tốn"
@@ -5400,16 +5400,16 @@
     "trị vì": null,
     "sinh": "4 tháng 9 năm 1837",
     "tên": "Trương Chi Động",
-    "mất": "5 tháng 10 năm 1909 (72 tuổi)",
+    "mất": "Lý Hồng Chương",
     "kế nhiệm": "Lý Hồng Chương",
     "triều đại": null,
     "tiền nhiệm": "Trương Thụ Thanh"
   },
   {
-    "trị vì": "1572-1582",
+    "trị vì": null,
     "sinh": "1525",
     "tên": "Trương Cư Chính",
-    "mất": "1582 (57 tuổi)",
+    "mất": "Trương Cử nhân",
     "kế nhiệm": "Trương Cử nhân",
     "triều đại": null,
     "tiền nhiệm": "Cao Củng"
@@ -5418,7 +5418,7 @@
     "trị vì": null,
     "sinh": "1934 Quốc Oai, Hà Tây, Liên bang Đông Dương",
     "tên": "Trương Khánh Châu",
-    "mất": "2019",
+    "mất": "Nguyễn Hoa Thịnh",
     "kế nhiệm": "Nguyễn Hoa Thịnh",
     "triều đại": null,
     "tiền nhiệm": "Đào Tuấn"
@@ -5427,7 +5427,7 @@
     "trị vì": null,
     "sinh": "18 tháng 8, 1945 (75 tuổi) xã Bình Ân, huyện Gò Công Đông, tỉnh Tiền Giang, Việt Nam",
     "tên": "Trương Mỹ Hoa",
-    "mất": null,
+    "mất": "Nguyễn Thị Doan",
     "kế nhiệm": "Nguyễn Thị Doan",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Thị Bình"
@@ -5442,7 +5442,7 @@
     "trị vì": null,
     "sinh": "21 tháng 1, 1949 (70 tuổi) Đức Hòa, Long An, Quốc gia Việt Nam",
     "tên": "Trương Tấn Sang",
-    "mất": null,
+    "mất": "Trần Đại Quang",
     "kế nhiệm": "Trần Đại Quang",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Minh Triết"
@@ -5451,7 +5451,7 @@
     "trị vì": null,
     "sinh": "1959 xã Phú Lộc, huyện Tam Bình, tỉnh Vĩnh Long, Việt Nam Cộng hòa",
     "tên": "Trương Văn Sáu",
-    "mất": null,
+    "mất": "Bùi Văn Nghiêm",
     "kế nhiệm": "Bùi Văn Nghiêm",
     "triều đại": null,
     "tiền nhiệm": "Phạm Văn Lực"
@@ -5460,7 +5460,7 @@
     "trị vì": null,
     "sinh": "2 tháng 5 năm 1917 Xã Cổ Nhuế, huyện Từ Liêm, Hà Nội, Liên bang Đông Dương",
     "tên": "Văn Tiến Dũng",
-    "mất": "17 tháng 3, 2002 (84 tuổi) Bệnh viện Trung ương Quân đội 108, Hà Nội",
+    "mất": "Lê Đức Anh",
     "kế nhiệm": "Lê Đức Anh",
     "triều đại": null,
     "tiền nhiệm": "Võ Nguyên Giáp"
@@ -5475,7 +5475,7 @@
     "trị vì": null,
     "sinh": "7 tháng 8, 1912 Tam Kỳ, Quảng Nam, Trung Kỳ, Liên bang Đông Dương",
     "tên": "Võ Chí Công",
-    "mất": "8 tháng 9, 2011 (99 tuổi) Thành phố Hồ Chí Minh, Việt Nam",
+    "mất": "Lê Đức Anh",
     "kế nhiệm": "Lê Đức Anh",
     "triều đại": null,
     "tiền nhiệm": "Trường Chinh"
@@ -5499,10 +5499,10 @@
     "mất": null
   },
   {
-    "trị vì": "19 tháng 10 năm 6902 - 22 tháng 2 năm 7053 (14 năm, 126 ngày)",
+    "trị vì": null,
     "sinh": "17 tháng 2, 6246 Văn Thủy, Tinh Châu, Đại Đường",
     "tên": "Võ Tắc Thiên",
-    "mất": "16 tháng 12, 705 (81 tuổi) Thượng Dương cung, Trường An, Đại Đường",
+    "mất": "Triều đại kết thúc",
     "kế nhiệm": "Triều đại kết thúc",
     "triều đại": null,
     "tiền nhiệm": "Sáng lập triều đại"
@@ -5517,16 +5517,16 @@
     "trị vì": null,
     "sinh": "23 tháng 11, 1922 Tỉnh Cửu Long (nay là Vĩnh Long), Liên bang Đông Dương",
     "tên": "Võ Văn Kiệt",
-    "mất": "11 tháng 6, 2008 (85 tuổi) Bệnh viện Mount Elizabeth, Singapore",
+    "mất": "Phan Văn Khải",
     "kế nhiệm": "Phan Văn Khải",
     "triều đại": null,
     "tiền nhiệm": "Đỗ Mười"
   },
   {
-    "trị vì": "1738 - 1765",
+    "trị vì": null,
     "sinh": "1714",
     "tên": "Võ Vương",
-    "mất": "1765 Đàng Trong, Đại Việt",
+    "mất": "Nguyễn Phúc Thuần",
     "kế nhiệm": "Nguyễn Phúc Thuần",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Phúc Chú"
@@ -5535,7 +5535,7 @@
     "trị vì": null,
     "sinh": "1 tháng 6 năm 1912 Bình Giang, Hải Dương, Liên bang Đông Dương",
     "tên": "Vũ Đình Hòe",
-    "mất": "29 tháng 1, 2011 (99 tuổi) Bệnh viện Chợ Rẫy",
+    "mất": "Đặng Thai Mai",
     "kế nhiệm": "Đặng Thai Mai",
     "triều đại": null,
     "tiền nhiệm": "Không có"
@@ -5544,7 +5544,7 @@
     "trị vì": null,
     "sinh": "3 tháng 2, 1963 (54 tuổi) Thanh Miện, Hải Dương, Việt Nam Dân chủ Cộng hòa",
     "tên": "Vũ Đức Đam",
-    "mất": null,
+    "mất": "đương nhiệm",
     "kế nhiệm": "đương nhiệm",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Thiện Nhân"
@@ -5571,7 +5571,7 @@
     "trị vì": null,
     "sinh": "ngày 26 tháng 9 năm 1921 Thường Tín, Hà Nội",
     "tên": "Vũ Kỳ",
-    "mất": "16 tháng 4, 2005 (83 tuổi) Bệnh viện Hữu nghị, Hà Nội",
+    "mất": "Đặng Xuân Kỳ",
     "kế nhiệm": "Đặng Xuân Kỳ",
     "triều đại": null,
     "tiền nhiệm": "Hà Huy Giáp"
@@ -5586,7 +5586,7 @@
     "trị vì": null,
     "sinh": "13 tháng 3, 1912 Hà Nội, Đông Dương thuộc Pháp",
     "tên": "Vũ Trọng Khánh",
-    "mất": "22 tháng 1, 1996 (83 tuổi) Hà Nội, Việt Nam",
+    "mất": "Vũ Đình Hòe",
     "kế nhiệm": "Vũ Đình Hòe",
     "triều đại": null,
     "tiền nhiệm": "không có"
@@ -5607,7 +5607,7 @@
     "trị vì": null,
     "sinh": "1914 Mỹ Hào, Hưng Yên, Liên bang Đông Dương",
     "tên": "Vũ Văn Cẩn",
-    "mất": "1982 (67\u201368 tuổi) Hà Nội, Việt Nam",
+    "mất": "Đặng Hồi Xuân",
     "kế nhiệm": "Đặng Hồi Xuân",
     "triều đại": null,
     "tiền nhiệm": "Nguyễn Văn Hưởng"
@@ -5616,43 +5616,43 @@
     "trị vì": null,
     "sinh": "542",
     "tên": "Vũ Văn Giác",
-    "mất": "557",
+    "mất": "Bắc Chu Hiếu Minh Đế",
     "kế nhiệm": "Bắc Chu Hiếu Minh Đế",
     "triều đại": "Bắc Chu",
     "tiền nhiệm": "Tây Ngụy Cung Đế Triều đại thành lập"
   },
   {
-    "trị vì": "618 \u2013 619",
+    "trị vì": null,
     "sinh": null,
     "tên": "Vũ Văn Hóa Cập",
-    "mất": "619",
+    "mất": "không quân đội bị Đậu Kiến Đức giải tán",
     "kế nhiệm": "không quân đội bị Đậu Kiến Đức giải tán",
     "triều đại": null,
     "tiền nhiệm": "Dương Hạo của triều Tùy"
   },
   {
-    "trị vì": "Thụy phong",
+    "trị vì": null,
     "sinh": "507",
     "tên": "Vũ Văn Thái",
-    "mất": "556",
+    "mất": "Bắc Chu Hiếu Mẫn Đế",
     "kế nhiệm": "Bắc Chu Hiếu Mẫn Đế",
     "triều đại": null,
     "tiền nhiệm": null
   },
   {
-    "trị vì": "1527 - 1557",
+    "trị vì": null,
     "sinh": "1479",
     "tên": "Vũ Văn Uyên",
-    "mất": "1557 Thành Nghị Lang,Tuyên Quang",
+    "mất": "Gia Quốc Công",
     "kế nhiệm": "Gia Quốc Công",
     "triều đại": null,
     "tiền nhiệm": "Không có Chúa Vũ đầu tiên"
   },
   {
-    "trị vì": "1 tháng 4 năm 579 \u2013 4 tháng 3 năm 581 (1 năm, 337 ngày)",
+    "trị vì": null,
     "sinh": "573",
     "tên": "Vũ Văn Xiển",
-    "mất": "581",
+    "mất": "Triều đại sụp đổ Tùy Văn Đế",
     "kế nhiệm": "Triều đại sụp đổ Tùy Văn Đế",
     "triều đại": null,
     "tiền nhiệm": "Bắc Chu Tuyên Đế"

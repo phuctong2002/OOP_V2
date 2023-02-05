@@ -17,7 +17,6 @@ public class EventNguoiKeSu extends Crawler {
 
     public EventNguoiKeSu(){
         setData(JsonHandler.readFile("Event.json"));
-        get();
     }
     @Override
     public void get() {

@@ -24,6 +24,7 @@ public class PersonWiki extends Crawler {
                 try{
                     Document document = Jsoup.connect("https://vi.wikipedia.org/" + links.get(i).attr("href")).get();
                     String name = links.get(i).text().trim();
+                    System.out.println(name);
                     JSONObject tmp = findObject(name);
                     if( tmp == null){
                         // khong ton tai o day nhe

@@ -17,25 +17,20 @@ import java.util.List;
 
 public class EventWiki extends Crawler {
     public EventWiki(){
-//        setData(JsonHandler.readFile("Event.json"));
-        get();
+        setData(JsonHandler.readFile("Event.json"));
     }
     @Override
     public void get() {
         try {
             Document document = Jsoup.connect("https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam").get();
             Elements elements = document.select(".mw-parser-output > p");
-//            System.out.println( elements.size());
             for (int j = 1; j < elements.size(); ++j) {
                 Element element = elements.get(j);
                 String time = getTime(element);
                 String name = getName(element);
-//                System.out.println(time + "   :  " + name);
                 if (name.equals(time)) {
-
                     Element dl = element.nextElementSibling();
                     Elements dd = dl.select("dd");
-//                    getListHistoricEvent(dd);
                     for(Element e : dd){
                         time = "ngày " + getTime(e) + " năm " + time;
                         getNewData(time,e);
@@ -43,9 +38,6 @@ public class EventWiki extends Crawler {
 
                 } else {
                     Event event = new Event();
-//                    relatedInformation = getRelatedInformation(element);
-//                    summary = getSummary(element);
-//                    handleNewData(getHistoricEvent());
                     getNewData("năm " + time,element);
                 }
             }

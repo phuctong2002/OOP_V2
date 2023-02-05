@@ -47,9 +47,9 @@ public class HomeController {
         textArea.setWrapText( true);
 
 
-        showListData(JsonHandler.readFile(map.get(choose.getSelectionModel().getSelectedItem())));
+        showListData(service.search(map.get(choose.getSelectionModel().getSelectedItem())));
         choose.setOnAction(actionEvent -> {
-            showListData(JsonHandler.readFile(map.get(choose.getSelectionModel().getSelectedItem())));
+            showListData(service.search(map.get(choose.getSelectionModel().getSelectedItem())));
         });
 
         search.textProperty().addListener((observableValue, s, t1) -> {
@@ -67,7 +67,17 @@ public class HomeController {
                     // tim duoc key roi  nhe
                     String value = "";// tinh gia tri
                     if (obj.get(key) != null){
+                        if( obj.get(key) instanceof JSONArray){
+                            JSONArray arr = (JSONArray) obj.get(key);
+                            for( int i = 0; i < arr.size(); ++i){
+                                if( i != arr.size() - 1)
+                                    value += arr.get(i) + ", ";
+                                else
+                                    value += arr.get(i) ;
+                            }
+                        }else{
                             value = obj.get(key).toString();
+                        }
                     }
                     if( value.length() != 0)
                         detail.append("+ ").append(key).append(" : ").append(value).append("\n\n");

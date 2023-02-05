@@ -1,6 +1,6 @@
 package hust.model;
 
-public abstract class Person extends Entity{
+public abstract class Person extends Entity {
     private String birth;
     private String death;
 

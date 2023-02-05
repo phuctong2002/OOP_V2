@@ -2,7 +2,7 @@ package hust.model;
 
 import org.json.simple.JSONObject;
 
-public class Character extends Person{
+public class Character extends Person {
     private String job;
 
     @Override
@@ -20,22 +20,23 @@ public class Character extends Person{
     public void setJob(String job) {
         this.job = job;
     }
-    public Character( JSONObject jsonObject){
-        if( jsonObject.get("tên") != null){
-            setName( (String) jsonObject.get("tên"));
-        }else setName(null);
-        if( jsonObject.get("sinh") == null){
+
+    public Character(JSONObject jsonObject) {
+        if (jsonObject.get("tên") != null) {
+            setName((String) jsonObject.get("tên"));
+        } else setName(null);
+        if (jsonObject.get("sinh") == null) {
             setBirth((String) jsonObject.get("sinh"));
-        }else setBirth(null);
-        if( jsonObject.get("mất") == null){
-            setDeath( (String) jsonObject.get("mất"));
-        }else setDeath( null);
-        if( jsonObject.get("công việc") == null){
+        } else setBirth(null);
+        if (jsonObject.get("mất") == null) {
+            setDeath((String) jsonObject.get("mất"));
+        } else setDeath(null);
+        if (jsonObject.get("công việc") == null) {
             job = (String) jsonObject.get("công việc");
-        }else job = null;
+        } else job = null;
     }
 
-    public Character(){
+    public Character() {
         setName(null);
         setBirth(null);
         setDeath(null);

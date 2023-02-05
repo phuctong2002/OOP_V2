@@ -16,7 +16,6 @@ public class DynastyWiki extends Crawler {
 
     public DynastyWiki() {
         setData("Dynasty.json");
-//        setData(JsonHandler.readFile("Dynasty.json"));
     }
 
     @Override
@@ -32,23 +31,24 @@ public class DynastyWiki extends Crawler {
                     try {
                         Document document = Jsoup.connect("https://vi.wikipedia.org" + link.firstChild().attr("href")).get();
                         String name = link.text();
+                        System.out.println(name);
                         JSONObject tmp = findObject(name);
                         if (tmp == null) {
                             JSONObject jsonObject = new JSONObject();
                             Dynasty dnt = new Dynasty();
                             dnt.setName(name);
                             dnt.setStart(getStart(link.nextElementSibling()));
-                            dnt.setEnd( getEnd(link.nextElementSibling()) );
+                            dnt.setEnd(getEnd(link.nextElementSibling()));
                             dnt.setCapital(getCapital(document));
-                            dnt.setKings( getKings(document));
-                            dnt.loadField( jsonObject);
-                            getData().add( jsonObject);
+                            dnt.setKings(getKings(document));
+                            dnt.loadField(jsonObject);
+                            getData().add(jsonObject);
                         } else {
-                            Dynasty dnt = new Dynasty( tmp);
-                            if( dnt.getStart() == null) dnt.setStart( getStart(link.nextElementSibling()));
-                            if( dnt.getEnd() == null) dnt.setEnd( getEnd(link.nextElementSibling()));
-                            if( dnt.getCapital() == null ) dnt.setCapital( getCapital(document));
-                            if( dnt.getKings() == null) dnt.setKings( getKings( document));
+                            Dynasty dnt = new Dynasty(tmp);
+                            if (dnt.getStart() == null) dnt.setStart(getStart(link.nextElementSibling()));
+                            if (dnt.getEnd() == null) dnt.setEnd(getEnd(link.nextElementSibling()));
+                            if (dnt.getCapital() == null) dnt.setCapital(getCapital(document));
+                            if (dnt.getKings() == null) dnt.setKings(getKings(document));
                             dnt.loadField(tmp);
                         }
                     } catch (Exception e) {
@@ -59,8 +59,7 @@ public class DynastyWiki extends Crawler {
         } catch (IOException e) {
             System.out.println("Error getData in DynastyWiki 2");
         }
-//        JsonHandler.writeFile("Dynasty.json", getData());
-        saveData( "Dynasty.json");
+        saveData("Dynasty.json");
     }
 
     private String getStart(Element el) {

@@ -11,7 +11,6 @@ public class PersonWiki extends Crawler {
 
     public PersonWiki(){
         setData( "Person.json");
-//        setData(JsonHandler.readFile("Person.json"));
     }
     @Override
     public void get() {
@@ -55,7 +54,6 @@ public class PersonWiki extends Crawler {
         }catch ( Exception e){
             System.out.println( "Error 1");
         }
-//        JsonHandler.writeFile("Person.json", getData());
         saveData("Person.json");
     }
 

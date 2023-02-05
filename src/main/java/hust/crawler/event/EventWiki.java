@@ -2,8 +2,6 @@ package hust.crawler.event;
 
 import hust.crawler.Crawler;
 import hust.model.Event;
-import hust.model.King;
-import hust.util.JsonHandler;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -12,13 +10,13 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class EventWiki extends Crawler {
-    public EventWiki(){
-        setData(JsonHandler.readFile("Event.json"));
+    public EventWiki() {
+        setData("Event.json");
     }
+
     @Override
     public void get() {
         try {
@@ -31,29 +29,30 @@ public class EventWiki extends Crawler {
                 if (name.equals(time)) {
                     Element dl = element.nextElementSibling();
                     Elements dd = dl.select("dd");
-                    for(Element e : dd){
+                    for (Element e : dd) {
                         time = "ngày " + getTime(e) + " năm " + time;
-                        getNewData(time,e);
+                        getNewData(time, e);
                     }
 
                 } else {
                     Event event = new Event();
-                    getNewData("năm " + time,element);
+                    getNewData("năm " + time, element);
                 }
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        JsonHandler.writeFile("Event.json",data);
+        saveData("Event.json");
     }
 
     private String getTime(Element element) {
         return element.select("b").text().replace("\u2013", "-");
     }
-    private String getName(Element element){
+
+    private String getName(Element element) {
         String name = element.text().replace("\u2013", "-");
         name = name.replace(getTime(element) + " ", "");
-        if(name.contains(","))
+        if (name.contains(","))
             return name.split(",")[0];
         return name;
     }
@@ -92,18 +91,18 @@ public class EventWiki extends Crawler {
 
     @Override
     public JSONObject findObject(String time) {
-        for( int i = 0; i < data.size(); ++i){
+        for (int i = 0; i < data.size(); ++i) {
             JSONObject obj = (JSONObject) data.get(i);
-            if( ((String) obj.get("thời gian")).toLowerCase().equals(time.toLowerCase())){
+            if (((String) obj.get("thời gian")).toLowerCase().equals(time.toLowerCase())) {
                 return obj;
             }
         }
         return null;
     }
 
-    public void getNewData(String time, Element element){
+    public void getNewData(String time, Element element) {
         JSONObject tmp = findObject(time);
-        if( tmp == null){
+        if (tmp == null) {
             // khong ton tai o day nhe
             JSONObject jsonObject = new JSONObject();
             Event event = new Event();
@@ -114,7 +113,7 @@ public class EventWiki extends Crawler {
             event.setRelatedInfo(getRelatedInformation(element));
             event.loadField(jsonObject);
             data.add(jsonObject);
-        }else{
+        } else {
             Event event = new Event(tmp);
             if (event.getRelatedInfo() == null) event.setRelatedInfo(getRelatedInformation(element));
             if (event.getSummary() == null) event.setSummary(getSummary(element));

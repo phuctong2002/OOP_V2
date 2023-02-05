@@ -17,7 +17,6 @@ import java.util.Objects;
 public class CulturalWiki extends Crawler {
     public CulturalWiki() {
         setData("Cultural.json");
-//        setData(JsonHandler.readFile("Cultural.json"));
     }
     @Override
     public void get() {
@@ -30,7 +29,6 @@ public class CulturalWiki extends Crawler {
                 try {
                     Elements d = elements.get(j).select("td");
                     String name = getName(d.get(2));
-//                    JSONObject obj = new JSONObject();
                     JSONObject tmp = findObject(name);
                     if (tmp == null) {
                         JSONObject jsonObject = new JSONObject();
@@ -58,7 +56,6 @@ public class CulturalWiki extends Crawler {
             System.out.println("Error getData in DynastyWiki 2");
         }
         saveData("Cultural.json");
-//        JsonHandler.writeFile("Cultural.json", getData());
     }
     private List<String> getRelatedCharacter(Element element) {
         List<String> relatedCharacter = new ArrayList<>();

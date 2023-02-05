@@ -2,6 +2,8 @@ package hust.main;
 
 
 import hust.crawler.Crawler;
+import hust.crawler.cultural.CulturalWiki2;
+import hust.crawler.dynasty.DynastyWiki;
 import hust.crawler.person.PersonNKS;
 import hust.crawler.person.PersonWiki;
 import hust.crawler.place.PlaceNKS;
@@ -25,7 +27,10 @@ public class Application extends javafx.application.Application {
     }
 
     public static void main(String[] args) {
-        Crawler obj = new PlaceNKS();
+//        Crawler obj = new PlaceNKS();
+//        obj.get();
+//        Crawler obj = new DynastyWiki();
+        Crawler obj = new CulturalWiki2();
         obj.get();
         launch();
     }

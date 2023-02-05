@@ -16,7 +16,6 @@ public class PlaceNKS extends Crawler {
 
     public PlaceNKS() {
         setData("Place.json");
-//        setData(JsonHandler.readFile("Place.json"));
     }
 
     @Override
@@ -43,7 +42,7 @@ public class PlaceNKS extends Crawler {
                                     continue;
                             }
                             String name = com.get(i).select("[itemprop=url]").get(0).text().trim();
-                            System.out.println( name);
+                            System.out.println(name);
                             JSONObject obj = findObject(name);
                             if (obj == null) {
                                 Place place = new Place();
@@ -72,7 +71,6 @@ public class PlaceNKS extends Crawler {
         }
         saveData("Place.json");
     }
-
 
 
     private String getLocation(Element el) {

@@ -14,8 +14,7 @@ import java.io.IOException;
 
 public class PersonNKS extends Crawler {
     public PersonNKS() {
-//        setData(JsonHandler.readFile("Person.json"));
-        setData( "Person.json");
+        setData("Person.json");
     }
 
     @Override
@@ -23,12 +22,11 @@ public class PersonNKS extends Crawler {
         String url = "https://nguoikesu.com/nhan-vat";
         do {
             try {
-                Document doc= Jsoup.connect(url).get();
+                Document doc = Jsoup.connect(url).get();
                 Elements list1 = doc.select(".blog-item");
                 Elements list2 = doc.select(".com-content-category-blog__pagination ul.pagination>li");
                 for (Element element : list1) {
-                    try{
-
+                    try {
                         if (element.select("h2>a").text().contains("nhà")) continue;
                         if (element.select("h2>a").text().contains("Nhà")) continue;
                         System.out.println(element.select("h2>a").text());
@@ -89,7 +87,7 @@ public class PersonNKS extends Crawler {
                                 a.loadField(person);
                             }
                         }
-                    }catch ( Exception e){
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
@@ -102,7 +100,6 @@ public class PersonNKS extends Crawler {
             }
 
         } while (true);
-//        JsonHandler.writeFile("Person.json", getData());
         saveData("Person.json");
     }
 

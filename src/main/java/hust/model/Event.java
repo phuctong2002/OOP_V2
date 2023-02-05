@@ -8,21 +8,22 @@ import org.json.simple.parser.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Event extends Entity{
+public class Event extends Entity {
     private String time;
     private List<String> relatedInfo;
     private String summary;
     private String result;
 
 
-    public Event(){
+    public Event() {
         setName(null);
         this.time = null;
         this.result = null;
         this.summary = null;
         this.relatedInfo = null;
     }
-    public Event(JSONObject jsonObject){
+
+    public Event(JSONObject jsonObject) {
         setName((String) jsonObject.get("tên"));
         setTime((String) jsonObject.get("thời gian"));
         setSummary((String) jsonObject.get("tóm tắt"));
@@ -40,10 +41,10 @@ public class Event extends Entity{
     @Override
     public void loadField(JSONObject jsonObject) {
         JSONParser parser = new JSONParser();
-        String strRelatedInfo = JSONArray.toJSONString( relatedInfo);
+        String strRelatedInfo = JSONArray.toJSONString(relatedInfo);
         JSONArray jsonRelatedInfo = new JSONArray();
-        try{
-            jsonRelatedInfo = (JSONArray) parser.parse( strRelatedInfo);
+        try {
+            jsonRelatedInfo = (JSONArray) parser.parse(strRelatedInfo);
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }

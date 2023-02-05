@@ -8,27 +8,29 @@ import org.json.simple.parser.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cultural extends Entity{
+public class Cultural extends Entity {
     private String location;
     private String time;
     private String firstTime;
     private List<String> relatedCharacter = new ArrayList<>();
+
     @Override
     public void loadField(JSONObject jsonObject) {
         JSONParser parser = new JSONParser();
-        String strrelatedCharacter = JSONArray.toJSONString( relatedCharacter);
+        String strrelatedCharacter = JSONArray.toJSONString(relatedCharacter);
         JSONArray jsonRelatedCharacter = new JSONArray();
-        try{
-            jsonRelatedCharacter = (JSONArray) parser.parse( strrelatedCharacter);
+        try {
+            jsonRelatedCharacter = (JSONArray) parser.parse(strrelatedCharacter);
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
         jsonObject.put("tên", getName());
-        jsonObject.put("địa điểm",location);
+        jsonObject.put("địa điểm", location);
         jsonObject.put("thời gian", time);
         jsonObject.put("tổ chức lần đầu", firstTime);
         jsonObject.put("nhân vật liên quan", jsonRelatedCharacter);
     }
+
     public String getLocation() {
         return location;
     }
@@ -71,10 +73,10 @@ public class Cultural extends Entity{
         if (jsonObj.get("thời gian") != null)
             time = (String) jsonObj.get("thời gian");
         else time = null;
-        if( jsonObj.get("tổ chức lần đầu") != null)
+        if (jsonObj.get("tổ chức lần đầu") != null)
             firstTime = (String) jsonObj.get("tổ chức lần đầu");
         else firstTime = null;
-        if( jsonObj.get("nhân vật liên quan") != null){
+        if (jsonObj.get("nhân vật liên quan") != null) {
             JSONArray arr = (JSONArray) jsonObj.get("nhân vật liên quan");
             if (arr != null) {
                 relatedCharacter = new ArrayList<String>();
@@ -82,9 +84,10 @@ public class Cultural extends Entity{
                     relatedCharacter.add((String) o);
                 }
             }
-        }else relatedCharacter = null;
+        } else relatedCharacter = null;
 
     }
+
     public Cultural() {
         setName(null);
         this.location = null;

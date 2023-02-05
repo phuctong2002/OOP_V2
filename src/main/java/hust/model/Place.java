@@ -3,9 +3,10 @@ package hust.model;
 import org.json.simple.JSONObject;
 
 
-public class Place extends Entity{
+public class Place extends Entity {
     private String location;
     private String brief;
+
     @Override
     public void loadField(JSONObject jsonObject) {
         jsonObject.put("tên", getName());
@@ -22,19 +23,19 @@ public class Place extends Entity{
     }
 
 
-    public Place( JSONObject jsonObject){
-        if( jsonObject.get("tên") != null)
-            setName( (String) jsonObject.get("tên"));
+    public Place(JSONObject jsonObject) {
+        if (jsonObject.get("tên") != null)
+            setName((String) jsonObject.get("tên"));
         else setName(null);
-        if( jsonObject.get( "location") != null)
-            setLocation( (String) jsonObject.get("địa điểm"));
+        if (jsonObject.get("location") != null)
+            setLocation((String) jsonObject.get("địa điểm"));
         else setLocation(null);
-        if( jsonObject.get("tóm tắt") != null)
+        if (jsonObject.get("tóm tắt") != null)
             setBrief((String) jsonObject.get("tóm tắt"));
-        else setBrief( null);
+        else setBrief(null);
     }
 
-    public Place( ){
+    public Place() {
         setName(null);
         location = null;
         brief = null;

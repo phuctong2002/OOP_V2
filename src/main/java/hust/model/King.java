@@ -53,7 +53,7 @@ public class King extends Person {
         jsonObject.put("trị vì", getTime());
     }
 
-    public King(){
+    public King() {
         setName(null);
         setBirth(null);
         setDeath(null);
@@ -62,27 +62,28 @@ public class King extends Person {
         predecessor = null;
         successor = null;
     }
-    public King( JSONObject jsonObject){
-        if( jsonObject.get("tên") != null)
-            setName( (String) jsonObject.get("tên"));
+
+    public King(JSONObject jsonObject) {
+        if (jsonObject.get("tên") != null)
+            setName((String) jsonObject.get("tên"));
         else setName(null);
-        if( jsonObject.get("sinh") != null)
+        if (jsonObject.get("sinh") != null)
             setBirth((String) jsonObject.get("sinh"));
         else setBirth(null);
-        if( jsonObject.get("mất") != null)
-            setDeath( (String) jsonObject.get("mất"));
+        if (jsonObject.get("mất") != null)
+            setDeath((String) jsonObject.get("mất"));
         else setDeath(null);
-        if( jsonObject.get("triều đại") != null)
-            setDeath( (String) jsonObject.get("triều đại"));
+        if (jsonObject.get("triều đại") != null)
+            setDeath((String) jsonObject.get("triều đại"));
         else setDeath(null);
-        if( jsonObject.get("trị vì") != null)
-            setDeath( (String) jsonObject.get("trị vì"));
+        if (jsonObject.get("trị vì") != null)
+            setDeath((String) jsonObject.get("trị vì"));
         else setDeath(null);
-        if( jsonObject.get("tiền nhiệm") != null)
-            setDeath( (String) jsonObject.get("tiền nhiệm"));
+        if (jsonObject.get("tiền nhiệm") != null)
+            setDeath((String) jsonObject.get("tiền nhiệm"));
         else setDeath(null);
-        if( jsonObject.get("kế nhiệm") != null)
-            setDeath( (String) jsonObject.get("kế nhiệm"));
+        if (jsonObject.get("kế nhiệm") != null)
+            setDeath((String) jsonObject.get("kế nhiệm"));
         else setDeath(null);
     }
 

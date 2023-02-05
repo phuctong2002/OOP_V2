@@ -8,13 +8,12 @@ import org.json.simple.parser.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dynasty extends Entity{
+public class Dynasty extends Entity {
 
     private String start;
     private String end;
     private List<String> kings;
     private String capital;
-
 
 
     public String getStart() {
@@ -48,8 +47,9 @@ public class Dynasty extends Entity{
     public void setCapital(String capital) {
         this.capital = capital;
     }
+
     @Override
-    public void loadField( JSONObject jsonObject) {
+    public void loadField(JSONObject jsonObject) {
         JSONParser parser = new JSONParser();
         String strKings = JSONArray.toJSONString(kings);
         JSONArray jsonKings = new JSONArray();
@@ -59,7 +59,6 @@ public class Dynasty extends Entity{
         } catch (ParseException e) {
 //            throw new RuntimeException(e);
         }
-//        JSONObject jsonObject = new JSONObject();
         jsonObject.put("tên", getName());
         jsonObject.put("bắt đầu", start);
         jsonObject.put("kết thúc", end);
@@ -80,10 +79,10 @@ public class Dynasty extends Entity{
         if (jsonObj.get("kết thúc") != null)
             end = (String) jsonObj.get("kết thúc");
         else end = null;
-        if( jsonObj.get("thủ đô") != null)
+        if (jsonObj.get("thủ đô") != null)
             capital = (String) jsonObj.get("thủ đô");
         else capital = null;
-        if( jsonObj.get("vua") != null){
+        if (jsonObj.get("vua") != null) {
             JSONArray arr = (JSONArray) jsonObj.get("vua");
             if (arr != null) {
                 kings = new ArrayList<String>();
@@ -91,7 +90,7 @@ public class Dynasty extends Entity{
                     kings.add((String) arr.get(i));
                 }
             }
-        }else kings = null;
+        } else kings = null;
 
     }
 
